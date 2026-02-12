@@ -19,7 +19,7 @@ for country, group in filtered.groupby("country"):
 
 sampled = pd.concat(sampled_list, ignore_index=True)
 
-# columns we want to pass to Google My Maps
+# columns we want to pass to Google My Maps hust for visualization
 selected = sampled[[
     "name",
     "country",
@@ -36,20 +36,20 @@ selected.to_csv("selected_train_stations.csv", index=False)
 
 import matplotlib.pyplot as plt
 
-# Carichiamo il file appena creato
+# uploading the selected train stations file
 df_plot = pd.read_csv("selected_train_stations.csv")
 
 plt.figure(figsize=(12, 8))
 plt.scatter(df_plot['longitude'], df_plot['latitude'], color='red', s=15, alpha=0.7)
 
-# Aggiungiamo etichette per alcuni punti (opzionale)
+# Adding name to each station in the plot
 for i, row in df_plot.iterrows():
     # if i % 5 == 0: # Etichetta una stazione ogni 5 per non affollare la mappa
         plt.text(row['longitude'], row['latitude'], row['name'], fontsize=8)
 
-plt.title("Distribuzione Geografica delle Stazioni Selezionate")
-plt.xlabel("Longitudine")
-plt.ylabel("Latitudine")
+plt.title("Geographical distribution of selected train stations")
+plt.xlabel("Longitude")
+plt.ylabel("Latitude")
 plt.grid(True, linestyle='--', alpha=0.6)
 plt.show()
 
@@ -60,21 +60,19 @@ import networkx as nx
 import matplotlib.pyplot as plt
 import math
 
-# --- 1. FUNZIONE PER DISTANZA GEODETICA ---
+# Computing geodetic function between two point given their coordinates
 def haversine(lat1, lon1, lat2, lon2):
-    R = 6371  # Raggio terra in km
+    R = 6371  # Earth radius in km
     phi1, phi2 = math.radians(lat1), math.radians(lat2)
     dphi = math.radians(lat2 - lat1)
     dlamb = math.radians(lon2 - lon1)
     a = math.sin(dphi/2)**2 + math.cos(phi1)*math.cos(phi2) * math.sin(dlamb/2)**2
     return round(2 * R * math.atan2(math.sqrt(a), math.sqrt(1 - a)), 1)
 
-# --- 2. CARICAMENTO DATI ---
+# Creating a df 
 df = pd.read_csv('selected_train_stations.csv').set_index('name')
 
-# --- 3. DEFINIZIONE COLLEGAMENTI (STATE SPACE) ---
-# Puoi aggiungere o togliere coppie qui
-# Dizionario espanso con le connessioni reali basate sulle stazioni fornite
+# Defining connections for state space (no orientation between nodes)
 connections = [
     ("Antwerpen-Centraal", "Amsterdam-Centraal"),
     ("Amsterdam-Centraal", "Den Haag Centraal"),
@@ -189,7 +187,7 @@ connections = [
     ("Antwerpen-Centraal", "Bruxelles-Midi"),  
 ]   
 
-# --- 4. COSTRUZIONE DEL GRAFO ---
+# Builiding state space graph 
 G = nx.Graph()
 pos = {}
 
@@ -202,17 +200,17 @@ for start, end in connections:
         pos[start] = (df.loc[start, 'longitude'], df.loc[start, 'latitude'])
         pos[end] = (df.loc[end, 'longitude'], df.loc[end, 'latitude'])
 
-# --- 5. PLOTTING ---
+# plotting
 plt.figure(figsize=(12, 9))
 
-# Disegno dei nodi e delle etichette delle città
+# Drawing nodes (stations) and their names
 nx.draw_networkx_nodes(G, pos, node_size=100, node_color='teal', alpha=0.8)
 nx.draw_networkx_labels(G, pos, font_size=9, font_weight='bold', verticalalignment='bottom')
 
-# Disegno degli archi
+# Drawing edges
 nx.draw_networkx_edges(G, pos, width=2, edge_color='navy', alpha=0.4)
 
-# --- AGGIUNTA DISTANZE A LATO (SOPRA GLI ARCHI) ---
+# Drawing distances into each edge
 edge_labels = nx.get_edge_attributes(G, 'weight')
 formatted_edge_labels = {k: f"{v} km" for k, v in edge_labels.items()}
 
@@ -221,14 +219,14 @@ nx.draw_networkx_edge_labels(
     edge_labels=formatted_edge_labels, 
     font_color='red', 
     font_size=8,
-    label_pos=0.5  # Posiziona l'etichetta a metà dell'arco
+    label_pos=0.5 
 )
 
-plt.title("State Space Ferroviario: Collegamenti e Distanze Geodetiche (Linea d'aria)", fontsize=14)
-plt.xlabel("Longitudine")
-plt.ylabel("Latitudine")
+plt.title("Railway State Space: Connections and Geodetic Distances", fontsize=14)
+plt.xlabel("Longitude")
+plt.ylabel("Latitude")
 plt.grid(True, linestyle='--', alpha=0.3)
 
-# Margini per non tagliare i nomi delle città
+# Margins for not cutting city names
 plt.margins(0.15)
 plt.show()
