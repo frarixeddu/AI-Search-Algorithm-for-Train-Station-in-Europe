@@ -53,9 +53,6 @@ plt.ylabel("Latitude")
 plt.grid(True, linestyle='--', alpha=0.6)
 plt.show()
 
-
-
-import pandas as pd
 import networkx as nx
 import matplotlib.pyplot as plt
 import math
@@ -69,7 +66,8 @@ def haversine(lat1, lon1, lat2, lon2):
     a = math.sin(dphi/2)**2 + math.cos(phi1)*math.cos(phi2) * math.sin(dlamb/2)**2
     return round(2 * R * math.atan2(math.sqrt(a), math.sqrt(1 - a)), 1)
 
-# Creating a df 
+# creating a df 
+# setting the name as index for every row, ready for the next loop  
 df = pd.read_csv('selected_train_stations.csv').set_index('name')
 
 # Defining connections for state space (no orientation between nodes)
@@ -157,10 +155,10 @@ connections = [
     ("Freudenstadt Hbf", "Villach Hbf"),  
     ("Imperia", "St-Sever Calvados"),  
     ("Imperia", "Pula Airport"), 
-    ("Nardò Città", "Pula Airport"), 
+    #("Nardò Città", "Pula Airport"), 
     ("Nardò Città", "Bellinzona"), 
     ("Nardo Città", "Budapest-Keleti"), 
-    ("Nardò Città", "Wolfsberg in Ktn Bahnhof"), 
+    #("Nardò Città", "Wolfsberg in Ktn Bahnhof"), 
     ("Bratislava hl.st.", "Salzburg Hbf"), 
     ("Bratislava hl.st.", "Freudenstadt Hbf"), 
     ("Bratislava hl.st.", "Praha hl.n."), 
@@ -171,7 +169,7 @@ connections = [
     ("Ekenässjön station", "Warszawa Centralna"), 
     ("Łódź Kaliska", "Ústí nad Labem hl.n."), 
     ("Warszawa-Centralna", "Moskva Kievskaia"),
-    ("Moskva Kievskaia", "Nybro Station"),
+    #("Moskva Kievskaia", "Nybro Station"),
     ("Moskva Kievskaia", "Bratislava hl.st."),
     ("Moskva Kievskaia", "Budapest-Keleti"),
     ("Nykøbing Falster St.", "Warszawa-Centralna"), 
@@ -185,32 +183,34 @@ connections = [
     ("Biograd na Moru Autobusni Kolodvor", "Nardo Città"), 
     ("Biograd na Moru Autobusni Kolodvor", "Imperia"), 
     ("Antwerpen-Centraal", "Bruxelles-Midi"),  
-]   
+]
 
-# Builiding state space graph 
+# Builiding state space graph
+# Initializa an empty graph of NetworkX non-oriented
 G = nx.Graph()
+# creating an empty dictionary for station positions in the state space graph
 pos = {}
 
+# loop that analyzes each couple (node, node) of the dictionary, providing mutual distance for the edge
+# and stores their position in the graph
 for start, end in connections:
+    # check if the two nodes are both in csv file
     if start in df.index and end in df.index:
         d = haversine(df.loc[start, 'latitude'], df.loc[start, 'longitude'],
                       df.loc[end, 'latitude'], df.loc[end, 'longitude'])
         G.add_edge(start, end, weight=d)
-        # Salviamo la posizione reale (Lon, Lat)
+        # populating the dictionary "pos" with positions of each station
         pos[start] = (df.loc[start, 'longitude'], df.loc[start, 'latitude'])
         pos[end] = (df.loc[end, 'longitude'], df.loc[end, 'latitude'])
 
-# plotting
+# prepraring plot figure
 plt.figure(figsize=(12, 9))
-
-# Drawing nodes (stations) and their names
+# drawing nodes (stations) and their names and edges in the plot
 nx.draw_networkx_nodes(G, pos, node_size=100, node_color='teal', alpha=0.8)
 nx.draw_networkx_labels(G, pos, font_size=9, font_weight='bold', verticalalignment='bottom')
-
-# Drawing edges
 nx.draw_networkx_edges(G, pos, width=2, edge_color='navy', alpha=0.4)
 
-# Drawing distances into each edge
+# Drawing distances into each edge and formatting for km representation on the graph
 edge_labels = nx.get_edge_attributes(G, 'weight')
 formatted_edge_labels = {k: f"{v} km" for k, v in edge_labels.items()}
 
@@ -222,11 +222,51 @@ nx.draw_networkx_edge_labels(
     label_pos=0.5 
 )
 
+# naming axies and providing a title
 plt.title("Railway State Space: Connections and Geodetic Distances", fontsize=14)
 plt.xlabel("Longitude")
 plt.ylabel("Latitude")
 plt.grid(True, linestyle='--', alpha=0.3)
 
 # Margins for not cutting city names
+plt.margins(0.15)
+plt.show()
+
+
+# SHOWING SPACE STATE OVER EUROPE MAP
+import geopandas as gpd
+
+# Carica i dati dall'URL
+url = "https://naciscdn.org/naturalearth/110m/cultural/ne_110m_admin_0_countries.zip"
+world = gpd.read_file(url)
+
+# Controlliamo come si chiama la colonna (spesso è 'CONTINENT' o 'continent')
+# Per sicurezza usiamo un approccio che non fallisce:
+if 'CONTINENT' in world.columns:
+    europe = world[world['CONTINENT'] == 'Europe']
+elif 'continent' in world.columns:
+    europe = world[world['continent'] == 'Europe']
+else:
+    # Se proprio non la trova, prendiamo tutto il mondo 
+    # e useremo i limiti della mappa (set_xlim) per inquadrare l'Europa
+    europe = world
+
+# 3. Creiamo il plot
+fig, ax = plt.subplots(figsize=(15, 10))
+
+# Disegniamo la mappa dell'Europa come sfondo
+europe.plot(ax=ax, color='whitesmoke', edgecolor='lightgray')
+
+# 4. Sovrapponiamo il tuo Grafo
+# Nota: passiamo 'ax=ax' alle funzioni di NetworkX per disegnare sopra la mappa
+nx.draw_networkx_nodes(G, pos, ax=ax, node_size=50, node_color='teal', alpha=0.8)
+nx.draw_networkx_labels(G, pos, ax=ax, font_size=7, font_weight='bold')
+nx.draw_networkx_edges(G, pos, ax=ax, width=1.5, edge_color='navy', alpha=0.3)
+
+# Impostiamo i limiti della vista per zoomare sull'area interessata
+ax.set_xlim([-15, 45]) 
+ax.set_ylim([34, 70])  
+
+plt.title("Rete Ferroviaria Europea su Mappa Reale")
 plt.margins(0.15)
 plt.show()
