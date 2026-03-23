@@ -191,7 +191,7 @@ G = nx.Graph()
 # creating an empty dictionary for station positions in the state space graph
 pos = {}
 
-# loop that analyzes each couple (node, node) of the dictionary, providing mutual distance for the edge
+# loop that analyzes each couple (node, node) of the dictionary "connections", and provides their mutual distance
 # and stores their position in the graph
 for start, end in connections:
     # check if the two nodes are both in csv file

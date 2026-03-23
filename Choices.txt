@@ -2,7 +2,7 @@ Preso database da Kaggle
 Filtrato per main station -> risultato circa 900 stazioni
 Filtrato allora prendendo 3 stazioni per ogni country. In caso un country ne avesse meno, si prendeva quel numero.
 
-Calcolata matrice di distanza mutua tra tutte le stazioni
+Calcolata la distanza per tutte le coppie di nodi indicati in connections
 Selezionate a mano solo quelle realisticamente connesse tra loro cercando di realizzare nodi da 1 edge fino ad un massimo di (calcolare il nodo con più edge)
 
 Fatti i vari plot

@@ -1,8 +1,10 @@
 from data_processing import process_stations
-from graph_engine import build_state_space
+from graph_engine import build_state_space, haversine
 from visualization import plot_on_map
+from a_star_search import a_star_search
+from id_DFS import dfs_search
 
-# 1. Data processing
+# 1. Data processing - extracting the dataframe we will use
 df_stations = process_stations("train_stations_europe.csv", "selected_train_stations.csv")
 
 # 2. Connection definition
@@ -121,8 +123,79 @@ connections = [
 ]
 
 # 3. Building state space
-# Returning graph "G" and dictionary "pos"
+# Returning graph "G" and dictionary "pos" with the position of every station
 G, pos = build_state_space(df_stations, connections)
 
-# 4. Plotting the state space on Europe map
+# 4. Plotting the state space on Europe map (just for visualization)
 plot_on_map(G, pos)
+
+import random
+
+random.seed(42)
+
+# print (f"Viaggio da: {initial_state} a: {final_state}")
+
+# we convert the view "G.nodes()" into a list for future data manipulation operations 
+# Dictionaries are optimized for key access so we have to convert the keys into a list 
+available_states = list(G.nodes())
+
+# Nome del file in cui salvare i risultati
+astar_output_file = "risultati_test_AStar.txt"
+
+# Apriamo il file in modalità 'w' (write - scrittura)
+with open(astar_output_file, "w", encoding="utf-8") as f:
+    f.write("REPORT RICERCA A* - 100 TEST CASUALI\n")
+    f.write("="*50 + "\n")
+
+    for i in range(1, 101):
+        # initial state definition
+        start = random.choice(available_states)
+        # goal state's definition
+        goal = random.choice([s for s in available_states if s != start])
+        
+        path, cost = a_star_search(G, start, goal, pos)
+        
+        # Prepariamo le stringhe da scrivere nel file
+        f.write(f"\nTEST {i}\n")
+        f.write(f"Da: {start} -> A: {goal}\n")
+        
+        if path:
+            path_string = " -> ".join(path)
+            f.write(f"Distanza totale: {cost:.2f} km\n")
+            f.write(f"Percorso: {path_string}\n")
+        else:
+            f.write("Esito: Nessun percorso trovato.\n")
+            
+        f.write("-" * 30 + "\n")
+    
+
+available_states = list(G.nodes())
+
+idDFS_output_file = "risultati_test_idDFS.txt"    
+
+with open(idDFS_output_file, "w", encoding="utf-8") as f:
+    f.write("REPORT RICERCA idDFS - 100 TEST CASUALI\n")
+    f.write("="*50 + "\n")
+
+    for i in range(1, 101):
+        # initial state definition
+        start = random.choice(available_states)
+        # goal state's definition
+        goal = random.choice([s for s in available_states if s != start])
+        
+        idDFS_path = dfs_search(G, start, goal)
+        
+        # Prepariamo le stringhe da scrivere nel file
+        f.write(f"\nTEST {i}\n")
+        f.write(f"Da: {start} -> A: {goal}\n")
+        
+        if idDFS_path:
+            path_string = " -> ".join(idDFS_path)
+            # f.write(f"Distanza totale: {cost:.2f} km\n")
+            f.write(f"Percorso: {path_string}\n")
+        else:
+            f.write("Esito: Nessun percorso trovato.\n")
+            
+        f.write("-" * 30 + "\n")
+
+    print(f"Operazione completata!")
