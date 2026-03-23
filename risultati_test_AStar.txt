@@ -15,38 +15,38 @@ Percorso: Amsterdam-Centraal -> Den Haag Centraal -> Newhaven Town -> Dublin Con
 
 TEST 3
 Da: Bremen Hbf -> A: Ostrava-Vítkovice
-Distanza totale: 1261.90 km
-Percorso: Bremen Hbf -> Freudenstadt Hbf -> Praha hl.n. -> Ostrava-Vítkovice
+Distanza totale: 1716.20 km
+Percorso: Bremen Hbf -> Magdeburg Hbf -> Warszawa-Centralna -> Łódź Kaliska -> Ústí nad Labem hl.n. -> Praha hl.n. -> Ostrava-Vítkovice
 ------------------------------
 
 TEST 4
 Da: Ústí nad Labem hl.n. -> A: Nomain
-Distanza totale: 981.60 km
-Percorso: Ústí nad Labem hl.n. -> Praha hl.n. -> Freudenstadt Hbf -> Rodange -> Nomain
+Distanza totale: 1448.80 km
+Percorso: Ústí nad Labem hl.n. -> Praha hl.n. -> Bratislava hl.st. -> Freudenstadt Hbf -> Luxembourg Gare Centrale (Quai 13) -> Luxembourg -> Rodange -> Nomain
 ------------------------------
 
 TEST 5
 Da: Moskva Kievskaia -> A: Rodange
-Distanza totale: 2427.60 km
-Percorso: Moskva Kievskaia -> Warszawa-Centralna -> Łódź Kaliska -> Ústí nad Labem hl.n. -> Praha hl.n. -> Freudenstadt Hbf -> Rodange
+Distanza totale: 2500.90 km
+Percorso: Moskva Kievskaia -> Bratislava hl.st. -> Freudenstadt Hbf -> Luxembourg Gare Centrale (Quai 13) -> Luxembourg -> Rodange
 ------------------------------
 
 TEST 6
-Da: Nykøbing Falster St. -> A: Dublin Connolly
-Distanza totale: 1627.70 km
-Percorso: Nykøbing Falster St. -> Herning St. -> Amsterdam-Centraal -> Den Haag Centraal -> Newhaven Town -> Dublin Connolly
+Da: Vetlanda station -> A: Dublin Connolly
+Distanza totale: 2736.10 km
+Percorso: Vetlanda station -> Ekenässjön station -> Nybro Station -> Magdeburg Hbf -> Bremen Hbf -> Odense St. -> Antwerpen-Centraal -> Den Haag Centraal -> Newhaven Town -> Dublin Connolly
 ------------------------------
 
 TEST 7
 Da: Pembroke Station -> A: Luxembourg
-Distanza totale: 847.40 km
-Percorso: Pembroke Station -> Newhaven Town -> Bruxelles-Midi -> Luxembourg
+Distanza totale: 1000.60 km
+Percorso: Pembroke Station -> Newhaven Town -> Den Haag Centraal -> Antwerpen-Centraal -> Luxembourg
 ------------------------------
 
 TEST 8
 Da: Warszawa-Centralna -> A: Porto Sao Bento
-Distanza totale: 3041.40 km
-Percorso: Warszawa-Centralna -> Łódź Kaliska -> Ústí nad Labem hl.n. -> Praha hl.n. -> Freudenstadt Hbf -> Frauenfeld Bahnhof -> Bellinzona -> Imperia -> Barcelona El Prat T1 -> Porto Campanhã -> Porto Sao Bento
+Distanza totale: 3114.00 km
+Percorso: Warszawa-Centralna -> Bratislava hl.st. -> Salzburg Hbf -> Villach Hbf -> Pula Airport -> Imperia -> Barcelona El Prat T1 -> Porto Campanhã -> Porto Sao Bento
 ------------------------------
 
 TEST 9
@@ -57,68 +57,68 @@ Percorso: Den Haag Centraal -> Amsterdam-Centraal
 
 TEST 10
 Da: Luxembourg -> A: Ústí nad Labem hl.n.
-Distanza totale: 751.20 km
-Percorso: Luxembourg -> Freudenstadt Hbf -> Praha hl.n. -> Ústí nad Labem hl.n.
+Distanza totale: 1211.20 km
+Percorso: Luxembourg -> Luxembourg Gare Centrale (Quai 13) -> Freudenstadt Hbf -> Bratislava hl.st. -> Praha hl.n. -> Ústí nad Labem hl.n.
 ------------------------------
 
 TEST 11
 Da: Ústí nad Labem hl.n. -> A: St-Sever Calvados
-Distanza totale: 1339.20 km
-Percorso: Ústí nad Labem hl.n. -> Praha hl.n. -> Freudenstadt Hbf -> Rodange -> Nomain -> St-Sever Calvados
+Distanza totale: 1806.40 km
+Percorso: Ústí nad Labem hl.n. -> Praha hl.n. -> Bratislava hl.st. -> Freudenstadt Hbf -> Luxembourg Gare Centrale (Quai 13) -> Luxembourg -> Rodange -> Nomain -> St-Sever Calvados
 ------------------------------
 
 TEST 12
 Da: Łódź Kaliska -> A: Amsterdam-Centraal
-Distanza totale: 1217.30 km
-Percorso: Łódź Kaliska -> Warszawa-Centralna -> Magdeburg Hbf -> Amsterdam-Centraal
+Distanza totale: 1852.90 km
+Percorso: Łódź Kaliska -> Warszawa-Centralna -> Bratislava hl.st. -> Freudenstadt Hbf -> Luxembourg Gare Centrale (Quai 13) -> Luxembourg -> Antwerpen-Centraal -> Amsterdam-Centraal
 ------------------------------
 
 TEST 13
 Da: Newhaven Town -> A: Wolfsberg in Ktn Bahnhof
-Distanza totale: 1233.10 km
-Percorso: Newhaven Town -> Bruxelles-Midi -> Luxembourg -> Freudenstadt Hbf -> Villach Hbf -> Wolfsberg in Ktn Bahnhof
+Distanza totale: 1362.50 km
+Percorso: Newhaven Town -> Langres -> Balsthal -> Freudenstadt Hbf -> Villach Hbf -> Wolfsberg in Ktn Bahnhof
 ------------------------------
 
 TEST 14
-Da: Ekenässjön station -> A: Odense St.
-Distanza totale: 649.90 km
-Percorso: Ekenässjön station -> Nybro Station -> Herning St. -> Odense St.
+Da: Nybro Station -> A: Herning St.
+Distanza totale: 431.20 km
+Percorso: Nybro Station -> Herning St.
 ------------------------------
 
 TEST 15
-Da: Vetlanda station -> A: Pembroke Station
-Distanza totale: 1771.10 km
-Percorso: Vetlanda station -> Ekenässjön station -> Nybro Station -> Herning St. -> Amsterdam-Centraal -> Den Haag Centraal -> Newhaven Town -> Pembroke Station
+Da: Ekenässjön station -> A: Pembroke Station
+Distanza totale: 2571.00 km
+Percorso: Ekenässjön station -> Nybro Station -> Magdeburg Hbf -> Bremen Hbf -> Odense St. -> Antwerpen-Centraal -> Den Haag Centraal -> Newhaven Town -> Pembroke Station
 ------------------------------
 
 TEST 16
 Da: Porto Campanhã -> A: Ústí nad Labem hl.n.
-Distanza totale: 2525.00 km
-Percorso: Porto Campanhã -> Barcelona El Prat T1 -> Imperia -> Bellinzona -> Frauenfeld Bahnhof -> Freudenstadt Hbf -> Praha hl.n. -> Ústí nad Labem hl.n.
+Distanza totale: 2940.10 km
+Percorso: Porto Campanhã -> Barcelona El Prat T1 -> Imperia -> Pula Airport -> Villach Hbf -> Salzburg Hbf -> Bratislava hl.st. -> Praha hl.n. -> Ústí nad Labem hl.n.
 ------------------------------
 
 TEST 17
 Da: Lisboa Santa Apolónia -> A: Łódź Kaliska
-Distanza totale: 3023.30 km
-Percorso: Lisboa Santa Apolónia -> Barcelona El Prat T1 -> Imperia -> Bellinzona -> Frauenfeld Bahnhof -> Freudenstadt Hbf -> Praha hl.n. -> Ústí nad Labem hl.n. -> Łódź Kaliska
+Distanza totale: 3506.10 km
+Percorso: Lisboa Santa Apolónia -> Porto Campanhã -> Barcelona El Prat T1 -> Imperia -> Pula Airport -> Villach Hbf -> Salzburg Hbf -> Bratislava hl.st. -> Warszawa-Centralna -> Łódź Kaliska
 ------------------------------
 
 TEST 18
 Da: Bremen Hbf -> A: Antwerpen-Centraal
-Distanza totale: 724.50 km
-Percorso: Bremen Hbf -> Magdeburg Hbf -> Antwerpen-Centraal
+Distanza totale: 888.20 km
+Percorso: Bremen Hbf -> Odense St. -> Antwerpen-Centraal
 ------------------------------
 
 TEST 19
 Da: Dublin Connolly -> A: Salzburg Hbf
-Distanza totale: 1815.60 km
-Percorso: Dublin Connolly -> Newhaven Town -> Bruxelles-Midi -> Luxembourg -> Freudenstadt Hbf -> Villach Hbf -> Salzburg Hbf
+Distanza totale: 1945.00 km
+Percorso: Dublin Connolly -> Newhaven Town -> Langres -> Balsthal -> Freudenstadt Hbf -> Villach Hbf -> Salzburg Hbf
 ------------------------------
 
 TEST 20
-Da: Vetlanda station -> A: Porto Sao Bento
-Distanza totale: 3142.20 km
-Percorso: Vetlanda station -> Ekenässjön station -> Nybro Station -> Magdeburg Hbf -> Freudenstadt Hbf -> Frauenfeld Bahnhof -> Bellinzona -> Imperia -> Barcelona El Prat T1 -> Porto Campanhã -> Porto Sao Bento
+Da: Ekenässjön station -> A: Porto Sao Bento
+Distanza totale: 3399.60 km
+Percorso: Ekenässjön station -> Nybro Station -> Magdeburg Hbf -> Bremen Hbf -> Freudenstadt Hbf -> Frauenfeld Bahnhof -> Bellinzona -> Imperia -> Barcelona El Prat T1 -> Porto Campanhã -> Porto Sao Bento
 ------------------------------
 
 TEST 21
@@ -129,8 +129,8 @@ Percorso: Bellinzona -> Frauenfeld Bahnhof -> Freudenstadt Hbf -> Bremen Hbf
 
 TEST 22
 Da: Charleroi-Ouest -> A: Ústí nad Labem hl.n.
-Distanza totale: 902.40 km
-Percorso: Charleroi-Ouest -> Luxembourg -> Freudenstadt Hbf -> Praha hl.n. -> Ústí nad Labem hl.n.
+Distanza totale: 1446.70 km
+Percorso: Charleroi-Ouest -> Bruxelles-Midi -> Luxembourg -> Luxembourg Gare Centrale (Quai 13) -> Freudenstadt Hbf -> Bratislava hl.st. -> Praha hl.n. -> Ústí nad Labem hl.n.
 ------------------------------
 
 TEST 23
@@ -147,8 +147,8 @@ Percorso: Rodange -> Luxembourg
 
 TEST 25
 Da: Catanzaro (Germaneto) -> A: Rodange
-Distanza totale: 1660.30 km
-Percorso: Catanzaro (Germaneto) -> Nardò Città -> Bellinzona -> Frauenfeld Bahnhof -> Freudenstadt Hbf -> Rodange
+Distanza totale: 1667.70 km
+Percorso: Catanzaro (Germaneto) -> Nardò Città -> Bellinzona -> Frauenfeld Bahnhof -> Freudenstadt Hbf -> Luxembourg Gare Centrale (Quai 13) -> Luxembourg -> Rodange
 ------------------------------
 
 TEST 26
@@ -165,8 +165,8 @@ Percorso: Łódź Kaliska -> Warszawa-Centralna -> Magdeburg Hbf
 
 TEST 28
 Da: Den Haag Centraal -> A: Moskva Kievskaia
-Distanza totale: 2296.90 km
-Percorso: Den Haag Centraal -> Amsterdam-Centraal -> Magdeburg Hbf -> Warszawa-Centralna -> Moskva Kievskaia
+Distanza totale: 2792.60 km
+Percorso: Den Haag Centraal -> Antwerpen-Centraal -> Luxembourg -> Luxembourg Gare Centrale (Quai 13) -> Freudenstadt Hbf -> Bratislava hl.st. -> Moskva Kievskaia
 ------------------------------
 
 TEST 29
@@ -183,14 +183,14 @@ Percorso: Luxembourg Gare Centrale (Quai 13) -> Freudenstadt Hbf -> Frauenfeld B
 
 TEST 31
 Da: Luxembourg -> A: Falkirk High
-Distanza totale: 1120.00 km
-Percorso: Luxembourg -> Bruxelles-Midi -> Newhaven Town -> Falkirk High
+Distanza totale: 1273.20 km
+Percorso: Luxembourg -> Antwerpen-Centraal -> Den Haag Centraal -> Newhaven Town -> Falkirk High
 ------------------------------
 
 TEST 32
-Da: Freudenstadt Hbf -> A: Odense St.
-Distanza totale: 792.10 km
-Percorso: Freudenstadt Hbf -> Bremen Hbf -> Odense St.
+Da: Freudenstadt Hbf -> A: Herning St.
+Distanza totale: 1746.10 km
+Percorso: Freudenstadt Hbf -> Bremen Hbf -> Magdeburg Hbf -> Nybro Station -> Herning St.
 ------------------------------
 
 TEST 33
@@ -201,20 +201,20 @@ Percorso: Bratislava hl.st. -> Freudenstadt Hbf -> Balsthal
 
 TEST 34
 Da: Falkirk High -> A: Wolfsberg in Ktn Bahnhof
-Distanza totale: 1864.50 km
-Percorso: Falkirk High -> Newhaven Town -> Bruxelles-Midi -> Luxembourg -> Freudenstadt Hbf -> Villach Hbf -> Wolfsberg in Ktn Bahnhof
+Distanza totale: 1993.90 km
+Percorso: Falkirk High -> Newhaven Town -> Langres -> Balsthal -> Freudenstadt Hbf -> Villach Hbf -> Wolfsberg in Ktn Bahnhof
 ------------------------------
 
 TEST 35
-Da: Ekenässjön station -> A: Bruxelles-Midi
-Distanza totale: 1196.20 km
-Percorso: Ekenässjön station -> Nybro Station -> Herning St. -> Antwerpen-Centraal -> Bruxelles-Midi
+Da: Nybro Station -> A: Bruxelles-Midi
+Distanza totale: 1712.70 km
+Percorso: Nybro Station -> Magdeburg Hbf -> Bremen Hbf -> Freudenstadt Hbf -> Luxembourg Gare Centrale (Quai 13) -> Luxembourg -> Bruxelles-Midi
 ------------------------------
 
 TEST 36
-Da: Den Haag Centraal -> A: Nykøbing Falster St.
-Distanza totale: 783.20 km
-Percorso: Den Haag Centraal -> Amsterdam-Centraal -> Herning St. -> Nykøbing Falster St.
+Da: Den Haag Centraal -> A: Vetlanda station
+Distanza totale: 1891.60 km
+Percorso: Den Haag Centraal -> Antwerpen-Centraal -> Odense St. -> Bremen Hbf -> Magdeburg Hbf -> Nybro Station -> Ekenässjön station -> Vetlanda station
 ------------------------------
 
 TEST 37
@@ -225,14 +225,14 @@ Percorso: Ústí nad Labem hl.n. -> Praha hl.n. -> Bratislava hl.st. -> Salzburg
 
 TEST 38
 Da: Luxembourg -> A: Ostrava-Vítkovice
-Distanza totale: 956.90 km
-Percorso: Luxembourg -> Freudenstadt Hbf -> Praha hl.n. -> Ostrava-Vítkovice
+Distanza totale: 1416.90 km
+Percorso: Luxembourg -> Luxembourg Gare Centrale (Quai 13) -> Freudenstadt Hbf -> Bratislava hl.st. -> Praha hl.n. -> Ostrava-Vítkovice
 ------------------------------
 
 TEST 39
 Da: Rodange -> A: Nardò Città
-Distanza totale: 1471.30 km
-Percorso: Rodange -> Freudenstadt Hbf -> Frauenfeld Bahnhof -> Bellinzona -> Nardò Città
+Distanza totale: 1478.70 km
+Percorso: Rodange -> Luxembourg -> Luxembourg Gare Centrale (Quai 13) -> Freudenstadt Hbf -> Frauenfeld Bahnhof -> Bellinzona -> Nardò Città
 ------------------------------
 
 TEST 40
@@ -255,44 +255,44 @@ Percorso: Salzburg Hbf -> Villach Hbf -> Pula Airport -> Imperia -> Nardò Citt�
 
 TEST 43
 Da: Frauenfeld Bahnhof -> A: Praha hl.n.
-Distanza totale: 577.70 km
-Percorso: Frauenfeld Bahnhof -> Freudenstadt Hbf -> Praha hl.n.
+Distanza totale: 1037.50 km
+Percorso: Frauenfeld Bahnhof -> Freudenstadt Hbf -> Bratislava hl.st. -> Praha hl.n.
 ------------------------------
 
 TEST 44
-Da: Herning St. -> A: Bremen Hbf
-Distanza totale: 397.10 km
-Percorso: Herning St. -> Odense St. -> Bremen Hbf
+Da: Nykøbing Falster St. -> A: Bremen Hbf
+Distanza totale: 1263.20 km
+Percorso: Nykøbing Falster St. -> Vetlanda station -> Ekenässjön station -> Nybro Station -> Magdeburg Hbf -> Bremen Hbf
 ------------------------------
 
 TEST 45
-Da: Vetlanda station -> A: Nykøbing Falster St.
-Distanza totale: 356.20 km
-Percorso: Vetlanda station -> Nykøbing Falster St.
+Da: Ekenässjön station -> A: Vetlanda station
+Distanza totale: 8.00 km
+Percorso: Ekenässjön station -> Vetlanda station
 ------------------------------
 
 TEST 46
-Da: Odense St. -> A: Bruxelles-Midi
-Distanza totale: 653.60 km
-Percorso: Odense St. -> Antwerpen-Centraal -> Bruxelles-Midi
+Da: Herning St. -> A: Bruxelles-Midi
+Distanza totale: 2143.90 km
+Percorso: Herning St. -> Nybro Station -> Magdeburg Hbf -> Bremen Hbf -> Freudenstadt Hbf -> Luxembourg Gare Centrale (Quai 13) -> Luxembourg -> Bruxelles-Midi
 ------------------------------
 
 TEST 47
-Da: Łódź Kaliska -> A: Odense St.
-Distanza totale: 1142.80 km
-Percorso: Łódź Kaliska -> Warszawa-Centralna -> Nykøbing Falster St. -> Herning St. -> Odense St.
+Da: Łódź Kaliska -> A: Herning St.
+Distanza totale: 1023.00 km
+Percorso: Łódź Kaliska -> Warszawa-Centralna -> Nykøbing Falster St. -> Herning St.
 ------------------------------
 
 TEST 48
 Da: Salzburg Hbf -> A: Newhaven Town
-Distanza totale: 1299.70 km
-Percorso: Salzburg Hbf -> Villach Hbf -> Freudenstadt Hbf -> Luxembourg -> Bruxelles-Midi -> Newhaven Town
+Distanza totale: 1429.10 km
+Percorso: Salzburg Hbf -> Villach Hbf -> Freudenstadt Hbf -> Balsthal -> Langres -> Newhaven Town
 ------------------------------
 
 TEST 49
-Da: Nybro Station -> A: Ostrava-Vítkovice
-Distanza totale: 1796.60 km
-Percorso: Nybro Station -> Magdeburg Hbf -> Freudenstadt Hbf -> Praha hl.n. -> Ostrava-Vítkovice
+Da: Odense St. -> A: Ostrava-Vítkovice
+Distanza totale: 1993.50 km
+Percorso: Odense St. -> Bremen Hbf -> Magdeburg Hbf -> Warszawa-Centralna -> Łódź Kaliska -> Ústí nad Labem hl.n. -> Praha hl.n. -> Ostrava-Vítkovice
 ------------------------------
 
 TEST 50
@@ -308,33 +308,33 @@ Percorso: Catanzaro (Germaneto) -> Nardò Città -> Bellinzona -> Frauenfeld Bah
 ------------------------------
 
 TEST 52
-Da: Budapest-Keleti -> A: Ekenässjön station
-Distanza totale: 1725.30 km
-Percorso: Budapest-Keleti -> Bratislava hl.st. -> Warszawa-Centralna -> Nykøbing Falster St. -> Vetlanda station -> Ekenässjön station
+Da: Budapest-Keleti -> A: Nybro Station
+Distanza totale: 1824.20 km
+Percorso: Budapest-Keleti -> Bratislava hl.st. -> Warszawa-Centralna -> Nykøbing Falster St. -> Vetlanda station -> Ekenässjön station -> Nybro Station
 ------------------------------
 
 TEST 53
 Da: Newhaven Town -> A: Ústí nad Labem hl.n.
-Distanza totale: 1239.80 km
-Percorso: Newhaven Town -> Bruxelles-Midi -> Luxembourg -> Freudenstadt Hbf -> Praha hl.n. -> Ústí nad Labem hl.n.
+Distanza totale: 1829.00 km
+Percorso: Newhaven Town -> Langres -> Balsthal -> Freudenstadt Hbf -> Bratislava hl.st. -> Praha hl.n. -> Ústí nad Labem hl.n.
 ------------------------------
 
 TEST 54
-Da: Nykøbing Falster St. -> A: Imperia
-Distanza totale: 1674.80 km
-Percorso: Nykøbing Falster St. -> Herning St. -> Odense St. -> Bremen Hbf -> Freudenstadt Hbf -> Frauenfeld Bahnhof -> Bellinzona -> Imperia
+Da: Vetlanda station -> A: Imperia
+Distanza totale: 1947.10 km
+Percorso: Vetlanda station -> Ekenässjön station -> Nybro Station -> Magdeburg Hbf -> Bremen Hbf -> Freudenstadt Hbf -> Frauenfeld Bahnhof -> Bellinzona -> Imperia
 ------------------------------
 
 TEST 55
 Da: Biograd na Moru Autobusni Kolodvor -> A: Leiden Lammenschans
-Distanza totale: 1338.10 km
-Percorso: Biograd na Moru Autobusni Kolodvor -> Pula Airport -> Villach Hbf -> Freudenstadt Hbf -> Luxembourg -> Antwerpen-Centraal -> Leiden Lammenschans
+Distanza totale: 1338.30 km
+Percorso: Biograd na Moru Autobusni Kolodvor -> Pula Airport -> Villach Hbf -> Freudenstadt Hbf -> Luxembourg Gare Centrale (Quai 13) -> Luxembourg -> Antwerpen-Centraal -> Leiden Lammenschans
 ------------------------------
 
 TEST 56
 Da: Ústí nad Labem hl.n. -> A: Den Haag Centraal
-Distanza totale: 1064.40 km
-Percorso: Ústí nad Labem hl.n. -> Praha hl.n. -> Freudenstadt Hbf -> Luxembourg -> Antwerpen-Centraal -> Den Haag Centraal
+Distanza totale: 1524.40 km
+Percorso: Ústí nad Labem hl.n. -> Praha hl.n. -> Bratislava hl.st. -> Freudenstadt Hbf -> Luxembourg Gare Centrale (Quai 13) -> Luxembourg -> Antwerpen-Centraal -> Den Haag Centraal
 ------------------------------
 
 TEST 57
@@ -345,8 +345,8 @@ Percorso: Imperia -> Barcelona El Prat T1 -> Porto Campanhã
 
 TEST 58
 Da: Bremen Hbf -> A: Bruxelles-Midi
-Distanza totale: 767.20 km
-Percorso: Bremen Hbf -> Magdeburg Hbf -> Antwerpen-Centraal -> Bruxelles-Midi
+Distanza totale: 912.60 km
+Percorso: Bremen Hbf -> Freudenstadt Hbf -> Luxembourg Gare Centrale (Quai 13) -> Luxembourg -> Bruxelles-Midi
 ------------------------------
 
 TEST 59
@@ -356,15 +356,15 @@ Percorso: Praha hl.n. -> Ústí nad Labem hl.n. -> Łódź Kaliska -> Warszawa-C
 ------------------------------
 
 TEST 60
-Da: Ekenässjön station -> A: Imperia
-Distanza totale: 1673.70 km
-Percorso: Ekenässjön station -> Nybro Station -> Magdeburg Hbf -> Freudenstadt Hbf -> Frauenfeld Bahnhof -> Bellinzona -> Imperia
+Da: Nybro Station -> A: Imperia
+Distanza totale: 1840.20 km
+Percorso: Nybro Station -> Magdeburg Hbf -> Bremen Hbf -> Freudenstadt Hbf -> Frauenfeld Bahnhof -> Bellinzona -> Imperia
 ------------------------------
 
 TEST 61
-Da: Praha hl.n. -> A: Herning St.
-Distanza totale: 1383.40 km
-Percorso: Praha hl.n. -> Freudenstadt Hbf -> Bremen Hbf -> Odense St. -> Herning St.
+Da: Praha hl.n. -> A: Nykøbing Falster St.
+Distanza totale: 1249.80 km
+Percorso: Praha hl.n. -> Ústí nad Labem hl.n. -> Łódź Kaliska -> Warszawa-Centralna -> Nykøbing Falster St.
 ------------------------------
 
 TEST 62
@@ -374,33 +374,33 @@ Percorso: Lorca-San Diego -> San Fernando de Cádiz -> Barcelona El Prat T1 -> I
 ------------------------------
 
 TEST 63
-Da: Odense St. -> A: San Fernando de Cádiz
-Distanza totale: 2660.50 km
-Percorso: Odense St. -> Antwerpen-Centraal -> Bruxelles-Midi -> Charleroi-Ouest -> Langres -> Barcelona El Prat T1 -> San Fernando de Cádiz
+Da: Herning St. -> A: San Fernando de Cádiz
+Distanza totale: 3731.60 km
+Percorso: Herning St. -> Nybro Station -> Magdeburg Hbf -> Bremen Hbf -> Freudenstadt Hbf -> Frauenfeld Bahnhof -> Bellinzona -> Imperia -> Barcelona El Prat T1 -> San Fernando de Cádiz
 ------------------------------
 
 TEST 64
 Da: Charleroi-Ouest -> A: Bremen Hbf
-Distanza totale: 814.90 km
-Percorso: Charleroi-Ouest -> Bruxelles-Midi -> Antwerpen-Centraal -> Magdeburg Hbf -> Bremen Hbf
+Distanza totale: 960.30 km
+Percorso: Charleroi-Ouest -> Bruxelles-Midi -> Luxembourg -> Luxembourg Gare Centrale (Quai 13) -> Freudenstadt Hbf -> Bremen Hbf
 ------------------------------
 
 TEST 65
 Da: Nomain -> A: Magdeburg Hbf
-Distanza totale: 685.10 km
-Percorso: Nomain -> Charleroi-Ouest -> Bruxelles-Midi -> Antwerpen-Centraal -> Magdeburg Hbf
+Distanza totale: 1179.90 km
+Percorso: Nomain -> Rodange -> Luxembourg -> Luxembourg Gare Centrale (Quai 13) -> Freudenstadt Hbf -> Bremen Hbf -> Magdeburg Hbf
 ------------------------------
 
 TEST 66
 Da: Moskva Kievskaia -> A: Newhaven Town
-Distanza totale: 2625.50 km
-Percorso: Moskva Kievskaia -> Warszawa-Centralna -> Magdeburg Hbf -> Amsterdam-Centraal -> Den Haag Centraal -> Newhaven Town
+Distanza totale: 3097.20 km
+Percorso: Moskva Kievskaia -> Bratislava hl.st. -> Freudenstadt Hbf -> Balsthal -> Langres -> Newhaven Town
 ------------------------------
 
 TEST 67
 Da: Pembroke Station -> A: Magdeburg Hbf
-Distanza totale: 1197.40 km
-Percorso: Pembroke Station -> Newhaven Town -> Den Haag Centraal -> Amsterdam-Centraal -> Magdeburg Hbf
+Distanza totale: 1889.50 km
+Percorso: Pembroke Station -> Newhaven Town -> Den Haag Centraal -> Antwerpen-Centraal -> Odense St. -> Bremen Hbf -> Magdeburg Hbf
 ------------------------------
 
 TEST 68
@@ -411,8 +411,8 @@ Percorso: Moskva Kievskaia -> Warszawa-Centralna
 
 TEST 69
 Da: Porto Sao Bento -> A: Łódź Kaliska
-Distanza totale: 2921.70 km
-Percorso: Porto Sao Bento -> Porto Campanhã -> Barcelona El Prat T1 -> Imperia -> Bellinzona -> Frauenfeld Bahnhof -> Freudenstadt Hbf -> Praha hl.n. -> Ústí nad Labem hl.n. -> Łódź Kaliska
+Distanza totale: 3233.70 km
+Percorso: Porto Sao Bento -> Porto Campanhã -> Barcelona El Prat T1 -> Imperia -> Pula Airport -> Villach Hbf -> Salzburg Hbf -> Bratislava hl.st. -> Warszawa-Centralna -> Łódź Kaliska
 ------------------------------
 
 TEST 70
@@ -423,8 +423,8 @@ Percorso: Nardò Città -> Bellinzona -> Frauenfeld Bahnhof -> Balsthal
 
 TEST 71
 Da: Ústí nad Labem hl.n. -> A: Nomain
-Distanza totale: 981.60 km
-Percorso: Ústí nad Labem hl.n. -> Praha hl.n. -> Freudenstadt Hbf -> Rodange -> Nomain
+Distanza totale: 1448.80 km
+Percorso: Ústí nad Labem hl.n. -> Praha hl.n. -> Bratislava hl.st. -> Freudenstadt Hbf -> Luxembourg Gare Centrale (Quai 13) -> Luxembourg -> Rodange -> Nomain
 ------------------------------
 
 TEST 72
@@ -435,8 +435,8 @@ Percorso: Langres -> Barcelona El Prat T1 -> San Fernando de Cádiz -> Lorca-San
 
 TEST 73
 Da: Luxembourg -> A: Biograd na Moru Autobusni Kolodvor
-Distanza totale: 1017.60 km
-Percorso: Luxembourg -> Freudenstadt Hbf -> Villach Hbf -> Pula Airport -> Biograd na Moru Autobusni Kolodvor
+Distanza totale: 1017.80 km
+Percorso: Luxembourg -> Luxembourg Gare Centrale (Quai 13) -> Freudenstadt Hbf -> Villach Hbf -> Pula Airport -> Biograd na Moru Autobusni Kolodvor
 ------------------------------
 
 TEST 74
@@ -446,15 +446,15 @@ Percorso: Leiden Lammenschans -> Antwerpen-Centraal -> Bruxelles-Midi -> Charler
 ------------------------------
 
 TEST 75
-Da: Charleroi-Ouest -> A: Odense St.
-Distanza totale: 701.30 km
-Percorso: Charleroi-Ouest -> Bruxelles-Midi -> Antwerpen-Centraal -> Odense St.
+Da: Charleroi-Ouest -> A: Herning St.
+Distanza totale: 2191.60 km
+Percorso: Charleroi-Ouest -> Bruxelles-Midi -> Luxembourg -> Luxembourg Gare Centrale (Quai 13) -> Freudenstadt Hbf -> Bremen Hbf -> Magdeburg Hbf -> Nybro Station -> Herning St.
 ------------------------------
 
 TEST 76
-Da: Salzburg Hbf -> A: Vetlanda station
-Distanza totale: 1757.70 km
-Percorso: Salzburg Hbf -> Villach Hbf -> Freudenstadt Hbf -> Magdeburg Hbf -> Nybro Station -> Ekenässjön station -> Vetlanda station
+Da: Salzburg Hbf -> A: Ekenässjön station
+Distanza totale: 1865.10 km
+Percorso: Salzburg Hbf -> Bratislava hl.st. -> Warszawa-Centralna -> Nykøbing Falster St. -> Vetlanda station -> Ekenässjön station
 ------------------------------
 
 TEST 77
@@ -465,8 +465,8 @@ Percorso: Porto Sao Bento -> Porto Campanhã -> Barcelona El Prat T1 -> Imperia 
 
 TEST 78
 Da: Bruxelles-Midi -> A: Nardò Città
-Distanza totale: 1644.80 km
-Percorso: Bruxelles-Midi -> Luxembourg -> Freudenstadt Hbf -> Frauenfeld Bahnhof -> Bellinzona -> Nardò Città
+Distanza totale: 1645.00 km
+Percorso: Bruxelles-Midi -> Luxembourg -> Luxembourg Gare Centrale (Quai 13) -> Freudenstadt Hbf -> Frauenfeld Bahnhof -> Bellinzona -> Nardò Città
 ------------------------------
 
 TEST 79
@@ -483,38 +483,38 @@ Percorso: San Fernando de Cádiz -> Barcelona El Prat T1 -> Langres -> Newhaven 
 
 TEST 81
 Da: Magdeburg Hbf -> A: Falkirk High
-Distanza totale: 1470.00 km
-Percorso: Magdeburg Hbf -> Amsterdam-Centraal -> Den Haag Centraal -> Newhaven Town -> Falkirk High
+Distanza totale: 2162.10 km
+Percorso: Magdeburg Hbf -> Bremen Hbf -> Odense St. -> Antwerpen-Centraal -> Den Haag Centraal -> Newhaven Town -> Falkirk High
 ------------------------------
 
 TEST 82
-Da: Antwerpen-Centraal -> A: Vetlanda station
-Distanza totale: 1161.50 km
-Percorso: Antwerpen-Centraal -> Herning St. -> Nybro Station -> Ekenässjön station -> Vetlanda station
+Da: Antwerpen-Centraal -> A: Ekenässjön station
+Distanza totale: 1787.20 km
+Percorso: Antwerpen-Centraal -> Odense St. -> Bremen Hbf -> Magdeburg Hbf -> Nybro Station -> Ekenässjön station
 ------------------------------
 
 TEST 83
-Da: Nybro Station -> A: Luxembourg Gare Centrale (Quai 13)
-Distanza totale: 1246.40 km
-Percorso: Nybro Station -> Herning St. -> Amsterdam-Centraal -> Luxembourg -> Luxembourg Gare Centrale (Quai 13)
+Da: Odense St. -> A: Luxembourg Gare Centrale (Quai 13)
+Distanza totale: 827.80 km
+Percorso: Odense St. -> Antwerpen-Centraal -> Luxembourg -> Luxembourg Gare Centrale (Quai 13)
 ------------------------------
 
 TEST 84
-Da: Nykøbing Falster St. -> A: Pembroke Station
-Distanza totale: 1470.60 km
-Percorso: Nykøbing Falster St. -> Herning St. -> Amsterdam-Centraal -> Den Haag Centraal -> Newhaven Town -> Pembroke Station
+Da: Vetlanda station -> A: Pembroke Station
+Distanza totale: 2579.00 km
+Percorso: Vetlanda station -> Ekenässjön station -> Nybro Station -> Magdeburg Hbf -> Bremen Hbf -> Odense St. -> Antwerpen-Centraal -> Den Haag Centraal -> Newhaven Town -> Pembroke Station
 ------------------------------
 
 TEST 85
 Da: Dublin Connolly -> A: Bremen Hbf
-Distanza totale: 1572.00 km
-Percorso: Dublin Connolly -> Newhaven Town -> Den Haag Centraal -> Amsterdam-Centraal -> Magdeburg Hbf -> Bremen Hbf
+Distanza totale: 1829.10 km
+Percorso: Dublin Connolly -> Newhaven Town -> Den Haag Centraal -> Antwerpen-Centraal -> Odense St. -> Bremen Hbf
 ------------------------------
 
 TEST 86
-Da: Biograd na Moru Autobusni Kolodvor -> A: Odense St.
-Distanza totale: 1599.90 km
-Percorso: Biograd na Moru Autobusni Kolodvor -> Pula Airport -> Villach Hbf -> Freudenstadt Hbf -> Bremen Hbf -> Odense St.
+Da: Biograd na Moru Autobusni Kolodvor -> A: Herning St.
+Distanza totale: 2237.00 km
+Percorso: Biograd na Moru Autobusni Kolodvor -> Pula Airport -> Villach Hbf -> Salzburg Hbf -> Bratislava hl.st. -> Warszawa-Centralna -> Nykøbing Falster St. -> Herning St.
 ------------------------------
 
 TEST 87
@@ -525,8 +525,8 @@ Percorso: Bellinzona -> Frauenfeld Bahnhof -> Freudenstadt Hbf -> Luxembourg Gar
 
 TEST 88
 Da: Freudenstadt Hbf -> A: Lisboa Santa Apolónia
-Distanza totale: 2087.40 km
-Percorso: Freudenstadt Hbf -> Frauenfeld Bahnhof -> Bellinzona -> Imperia -> Barcelona El Prat T1 -> Lisboa Santa Apolónia
+Distanza totale: 2258.20 km
+Percorso: Freudenstadt Hbf -> Frauenfeld Bahnhof -> Bellinzona -> Imperia -> Barcelona El Prat T1 -> Porto Campanhã -> Lisboa Santa Apolónia
 ------------------------------
 
 TEST 89
@@ -537,14 +537,14 @@ Percorso: Salzburg Hbf -> Villach Hbf -> Pula Airport -> Imperia -> Barcelona El
 
 TEST 90
 Da: Antwerpen-Centraal -> A: Moskva Kievskaia
-Distanza totale: 2293.90 km
-Percorso: Antwerpen-Centraal -> Magdeburg Hbf -> Warszawa-Centralna -> Moskva Kievskaia
+Distanza totale: 2696.20 km
+Percorso: Antwerpen-Centraal -> Luxembourg -> Luxembourg Gare Centrale (Quai 13) -> Freudenstadt Hbf -> Bratislava hl.st. -> Moskva Kievskaia
 ------------------------------
 
 TEST 91
-Da: Nybro Station -> A: Magdeburg Hbf
-Distanza totale: 582.60 km
-Percorso: Nybro Station -> Magdeburg Hbf
+Da: Odense St. -> A: Magdeburg Hbf
+Distanza totale: 494.80 km
+Percorso: Odense St. -> Bremen Hbf -> Magdeburg Hbf
 ------------------------------
 
 TEST 92
@@ -555,20 +555,20 @@ Percorso: Langres -> Balsthal -> Freudenstadt Hbf -> Villach Hbf -> Pula Airport
 
 TEST 93
 Da: Villach Hbf -> A: St-Sever Calvados
-Distanza totale: 1253.10 km
-Percorso: Villach Hbf -> Freudenstadt Hbf -> Rodange -> Nomain -> St-Sever Calvados
+Distanza totale: 1260.50 km
+Percorso: Villach Hbf -> Freudenstadt Hbf -> Luxembourg Gare Centrale (Quai 13) -> Luxembourg -> Rodange -> Nomain -> St-Sever Calvados
 ------------------------------
 
 TEST 94
-Da: Rodange -> A: Odense St.
-Distanza totale: 832.30 km
-Percorso: Rodange -> Bruxelles-Midi -> Antwerpen-Centraal -> Odense St.
+Da: Rodange -> A: Herning St.
+Distanza totale: 1977.60 km
+Percorso: Rodange -> Luxembourg -> Luxembourg Gare Centrale (Quai 13) -> Freudenstadt Hbf -> Bremen Hbf -> Magdeburg Hbf -> Nybro Station -> Herning St.
 ------------------------------
 
 TEST 95
-Da: Pula Airport -> A: Odense St.
-Distanza totale: 1438.60 km
-Percorso: Pula Airport -> Villach Hbf -> Freudenstadt Hbf -> Bremen Hbf -> Odense St.
+Da: Pula Airport -> A: Herning St.
+Distanza totale: 2075.70 km
+Percorso: Pula Airport -> Villach Hbf -> Salzburg Hbf -> Bratislava hl.st. -> Warszawa-Centralna -> Nykøbing Falster St. -> Herning St.
 ------------------------------
 
 TEST 96
@@ -579,8 +579,8 @@ Percorso: Langres -> Balsthal -> Freudenstadt Hbf -> Bratislava hl.st.
 
 TEST 97
 Da: Wolfsberg in Ktn Bahnhof -> A: Charleroi-Ouest
-Distanza totale: 895.70 km
-Percorso: Wolfsberg in Ktn Bahnhof -> Villach Hbf -> Freudenstadt Hbf -> Luxembourg -> Charleroi-Ouest
+Distanza totale: 980.20 km
+Percorso: Wolfsberg in Ktn Bahnhof -> Villach Hbf -> Freudenstadt Hbf -> Luxembourg Gare Centrale (Quai 13) -> Luxembourg -> Bruxelles-Midi -> Charleroi-Ouest
 ------------------------------
 
 TEST 98
@@ -591,8 +591,8 @@ Percorso: Balsthal -> Freudenstadt Hbf -> Villach Hbf -> Pula Airport -> Biograd
 
 TEST 99
 Da: Salzburg Hbf -> A: Newhaven Town
-Distanza totale: 1299.70 km
-Percorso: Salzburg Hbf -> Villach Hbf -> Freudenstadt Hbf -> Luxembourg -> Bruxelles-Midi -> Newhaven Town
+Distanza totale: 1429.10 km
+Percorso: Salzburg Hbf -> Villach Hbf -> Freudenstadt Hbf -> Balsthal -> Langres -> Newhaven Town
 ------------------------------
 
 TEST 100

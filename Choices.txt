@@ -8,3 +8,12 @@ Selezionate a mano solo quelle realisticamente connesse tra loro cercando di rea
 Fatti i vari plot
 
 Diviso in moduli il codice
+
+rimossi alcuni collegamenti in connections in quanto IDFS non andava oltre gli 8 nodi di depth
+
+Consideriamo come complessità spaziale del idDFS la versione teorica che i nodi totali corrispondono a d + 1 + {len(fringe)}.
+    # d è la profondità dell'ultimo elemento inserito
+    # len(fringe) sono tutti i nodi in attesa
+    # +1 conta il nodo radice/partenza
+Tuttavia, è bene notare (e forse meglio chiedere al prof) che i nodi totale immagazzinati in RAM non sono realmente quelli teorici mostrati precedentemente
+ma in realtà sono di più in quanto ogni nodo porta con sè l'informazione "path" che tiene traccia della storia di percorso compiuto. 

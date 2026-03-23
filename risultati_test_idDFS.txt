@@ -3,500 +3,600 @@ REPORT RICERCA idDFS - 100 TEST CASUALI
 
 TEST 1
 Da: Antwerpen-Centraal -> A: Bratislava hl.st.
-Percorso: Antwerpen-Centraal -> Bruxelles-Midi -> Rodange -> Balsthal -> Freudenstadt Hbf -> Bratislava hl.st.
+Depth soluzione: 4
+Percorso: Antwerpen-Centraal -> Odense St. -> Bremen Hbf -> Freudenstadt Hbf -> Bratislava hl.st.
 ------------------------------
 
 TEST 2
 Da: Imperia -> A: Langres
-Percorso: Imperia -> Biograd na Moru Autobusni Kolodvor -> Pula Airport -> Villach Hbf -> Freudenstadt Hbf -> Bratislava hl.st. -> Moskva Kievskaia -> Warszawa-Centralna -> Nykøbing Falster St. -> Vetlanda station -> Ekenässjön station -> Nybro Station -> Magdeburg Hbf -> Antwerpen-Centraal -> Bruxelles-Midi -> Rodange -> Balsthal -> Langres
+Depth soluzione: 2
+Percorso: Imperia -> St-Sever Calvados -> Langres
 ------------------------------
 
 TEST 3
 Da: Amsterdam-Centraal -> A: Nomain
-Percorso: Amsterdam-Centraal -> Odense St. -> Antwerpen-Centraal -> Bruxelles-Midi -> Rodange -> Balsthal -> Freudenstadt Hbf -> Bratislava hl.st. -> Moskva Kievskaia -> Budapest-Keleti -> Salzburg Hbf -> Villach Hbf -> Pula Airport -> Biograd na Moru Autobusni Kolodvor -> Imperia -> St-Sever Calvados -> Langres -> Charleroi-Ouest -> Nomain
+Depth soluzione: 4
+Percorso: Amsterdam-Centraal -> Antwerpen-Centraal -> Bruxelles-Midi -> Charleroi-Ouest -> Nomain
 ------------------------------
 
 TEST 4
 Da: Balsthal -> A: Pula Airport
-Percorso: Balsthal -> Rodange -> Freudenstadt Hbf -> Bratislava hl.st. -> Moskva Kievskaia -> Budapest-Keleti -> Salzburg Hbf -> Villach Hbf -> Pula Airport
+Depth soluzione: 3
+Percorso: Balsthal -> Freudenstadt Hbf -> Villach Hbf -> Pula Airport
 ------------------------------
 
 TEST 5
 Da: Ostrava-Vítkovice -> A: Leiden Lammenschans
-Percorso: Ostrava-Vítkovice -> Praha hl.n. -> Bratislava hl.st. -> Moskva Kievskaia -> Budapest-Keleti -> Salzburg Hbf -> Villach Hbf -> Freudenstadt Hbf -> Magdeburg Hbf -> Nybro Station -> Herning St. -> Antwerpen-Centraal -> Bruxelles-Midi -> Rodange -> Balsthal -> Langres -> Charleroi-Ouest -> Luxembourg -> Amsterdam-Centraal -> Den Haag Centraal -> Leiden Lammenschans
+Depth soluzione: 7
+Percorso: Ostrava-Vítkovice -> Praha hl.n. -> Bratislava hl.st. -> Freudenstadt Hbf -> Luxembourg Gare Centrale (Quai 13) -> Luxembourg -> Antwerpen-Centraal -> Leiden Lammenschans
 ------------------------------
 
 TEST 6
 Da: Ostrava-Vítkovice -> A: Warszawa-Centralna
-Percorso: Ostrava-Vítkovice -> Praha hl.n. -> Bratislava hl.st. -> Moskva Kievskaia -> Budapest-Keleti -> Salzburg Hbf -> Villach Hbf -> Freudenstadt Hbf -> Magdeburg Hbf -> Nybro Station -> Herning St. -> Nykøbing Falster St. -> Warszawa-Centralna
+Depth soluzione: 3
+Percorso: Ostrava-Vítkovice -> Praha hl.n. -> Bratislava hl.st. -> Warszawa-Centralna
 ------------------------------
 
 TEST 7
 Da: Luxembourg -> A: Rodange
-Percorso: Luxembourg -> Freudenstadt Hbf -> Bratislava hl.st. -> Moskva Kievskaia -> Budapest-Keleti -> Salzburg Hbf -> Villach Hbf -> Pula Airport -> Biograd na Moru Autobusni Kolodvor -> Imperia -> St-Sever Calvados -> Langres -> Charleroi-Ouest -> Rodange
+Depth soluzione: 1
+Percorso: Luxembourg -> Rodange
 ------------------------------
 
 TEST 8
-Da: Nybro Station -> A: Lorca-San Diego
-Percorso: Nybro Station -> Magdeburg Hbf -> Freudenstadt Hbf -> Bratislava hl.st. -> Moskva Kievskaia -> Budapest-Keleti -> Salzburg Hbf -> Villach Hbf -> Pula Airport -> Biograd na Moru Autobusni Kolodvor -> Imperia -> St-Sever Calvados -> Langres -> Barcelona El Prat T1 -> San Fernando de Cádiz -> Lorca-San Diego
+Da: Odense St. -> A: Lorca-San Diego
+Depth soluzione: 7
+Percorso: Odense St. -> Antwerpen-Centraal -> Bruxelles-Midi -> Charleroi-Ouest -> Langres -> Barcelona El Prat T1 -> San Fernando de Cádiz -> Lorca-San Diego
 ------------------------------
 
 TEST 9
 Da: Bruxelles-Midi -> A: Biograd na Moru Autobusni Kolodvor
-Percorso: Bruxelles-Midi -> Antwerpen-Centraal -> Odense St. -> Amsterdam-Centraal -> Herning St. -> Nybro Station -> Magdeburg Hbf -> Freudenstadt Hbf -> Bratislava hl.st. -> Moskva Kievskaia -> Budapest-Keleti -> Salzburg Hbf -> Villach Hbf -> Pula Airport -> Biograd na Moru Autobusni Kolodvor
+Depth soluzione: 5
+Percorso: Bruxelles-Midi -> Charleroi-Ouest -> Langres -> St-Sever Calvados -> Imperia -> Biograd na Moru Autobusni Kolodvor
 ------------------------------
 
 TEST 10
 Da: Pembroke Station -> A: Nomain
-Percorso: Pembroke Station -> Dublin Connolly -> Falkirk High -> Newhaven Town -> Langres -> Charleroi-Ouest -> Luxembourg -> Freudenstadt Hbf -> Bratislava hl.st. -> Moskva Kievskaia -> Budapest-Keleti -> Salzburg Hbf -> Villach Hbf -> Pula Airport -> Biograd na Moru Autobusni Kolodvor -> Imperia -> St-Sever Calvados -> Nomain
+Depth soluzione: 4
+Percorso: Pembroke Station -> Newhaven Town -> Langres -> Charleroi-Ouest -> Nomain
 ------------------------------
 
 TEST 11
-Da: Nomain -> A: Nykøbing Falster St.
-Percorso: Nomain -> Langres -> Charleroi-Ouest -> Luxembourg -> Freudenstadt Hbf -> Bratislava hl.st. -> Moskva Kievskaia -> Budapest-Keleti -> Salzburg Hbf -> Villach Hbf -> Pula Airport -> Biograd na Moru Autobusni Kolodvor -> Imperia -> Nardò Città -> Bellinzona -> Frauenfeld Bahnhof -> Balsthal -> Rodange -> Bruxelles-Midi -> Antwerpen-Centraal -> Odense St. -> Amsterdam-Centraal -> Herning St. -> Nybro Station -> Magdeburg Hbf -> Warszawa-Centralna -> Nykøbing Falster St.
+Da: Nomain -> A: Vetlanda station
+Depth soluzione: 7
+Percorso: Nomain -> Rodange -> Balsthal -> Freudenstadt Hbf -> Bratislava hl.st. -> Warszawa-Centralna -> Nykøbing Falster St. -> Vetlanda station
 ------------------------------
 
 TEST 12
 Da: Barcelona El Prat T1 -> A: Falkirk High
-Percorso: Barcelona El Prat T1 -> St-Sever Calvados -> Imperia -> Biograd na Moru Autobusni Kolodvor -> Pula Airport -> Villach Hbf -> Freudenstadt Hbf -> Bratislava hl.st. -> Moskva Kievskaia -> Warszawa-Centralna -> Nykøbing Falster St. -> Vetlanda station -> Ekenässjön station -> Nybro Station -> Magdeburg Hbf -> Antwerpen-Centraal -> Bruxelles-Midi -> Rodange -> Balsthal -> Langres -> Charleroi-Ouest -> Luxembourg -> Amsterdam-Centraal -> Den Haag Centraal -> Newhaven Town -> Dublin Connolly -> Falkirk High
+Depth soluzione: 3
+Percorso: Barcelona El Prat T1 -> Langres -> Newhaven Town -> Falkirk High
 ------------------------------
 
 TEST 13
 Da: Salzburg Hbf -> A: Bremen Hbf
-Percorso: Salzburg Hbf -> Bratislava hl.st. -> Moskva Kievskaia -> Warszawa-Centralna -> Nykøbing Falster St. -> Vetlanda station -> Ekenässjön station -> Nybro Station -> Magdeburg Hbf -> Freudenstadt Hbf -> Villach Hbf -> Pula Airport -> Biograd na Moru Autobusni Kolodvor -> Imperia -> St-Sever Calvados -> Langres -> Charleroi-Ouest -> Luxembourg -> Amsterdam-Centraal -> Odense St. -> Bremen Hbf
+Depth soluzione: 3
+Percorso: Salzburg Hbf -> Bratislava hl.st. -> Freudenstadt Hbf -> Bremen Hbf
 ------------------------------
 
 TEST 14
 Da: St-Sever Calvados -> A: Bratislava hl.st.
-Percorso: St-Sever Calvados -> Imperia -> Biograd na Moru Autobusni Kolodvor -> Pula Airport -> Villach Hbf -> Freudenstadt Hbf -> Bratislava hl.st.
+Depth soluzione: 4
+Percorso: St-Sever Calvados -> Langres -> Balsthal -> Freudenstadt Hbf -> Bratislava hl.st.
 ------------------------------
 
 TEST 15
 Da: Porto Sao Bento -> A: Praha hl.n.
-Percorso: Porto Sao Bento -> Porto Campanhã -> Barcelona El Prat T1 -> St-Sever Calvados -> Imperia -> Biograd na Moru Autobusni Kolodvor -> Pula Airport -> Villach Hbf -> Freudenstadt Hbf -> Bratislava hl.st. -> Moskva Kievskaia -> Warszawa-Centralna -> Łódź Kaliska -> Ústí nad Labem hl.n. -> Praha hl.n.
+Depth soluzione: 7
+Percorso: Porto Sao Bento -> Porto Campanhã -> Barcelona El Prat T1 -> Langres -> Balsthal -> Freudenstadt Hbf -> Bratislava hl.st. -> Praha hl.n.
 ------------------------------
 
 TEST 16
 Da: Pembroke Station -> A: Biograd na Moru Autobusni Kolodvor
-Percorso: Pembroke Station -> Dublin Connolly -> Falkirk High -> Newhaven Town -> Langres -> Charleroi-Ouest -> Luxembourg -> Freudenstadt Hbf -> Bratislava hl.st. -> Moskva Kievskaia -> Budapest-Keleti -> Salzburg Hbf -> Villach Hbf -> Pula Airport -> Biograd na Moru Autobusni Kolodvor
+Depth soluzione: 5
+Percorso: Pembroke Station -> Newhaven Town -> Langres -> St-Sever Calvados -> Imperia -> Biograd na Moru Autobusni Kolodvor
 ------------------------------
 
 TEST 17
-Da: Nybro Station -> A: Vetlanda station
-Percorso: Nybro Station -> Magdeburg Hbf -> Freudenstadt Hbf -> Bratislava hl.st. -> Moskva Kievskaia -> Budapest-Keleti -> Salzburg Hbf -> Villach Hbf -> Pula Airport -> Biograd na Moru Autobusni Kolodvor -> Imperia -> St-Sever Calvados -> Langres -> Charleroi-Ouest -> Luxembourg -> Amsterdam-Centraal -> Odense St. -> Antwerpen-Centraal -> Herning St. -> Nykøbing Falster St. -> Vetlanda station
+Da: Odense St. -> A: Ekenässjön station
+Depth soluzione: 4
+Percorso: Odense St. -> Bremen Hbf -> Magdeburg Hbf -> Nybro Station -> Ekenässjön station
 ------------------------------
 
 TEST 18
-Da: Wolfsberg in Ktn Bahnhof -> A: Nybro Station
-Percorso: Wolfsberg in Ktn Bahnhof -> Villach Hbf -> Freudenstadt Hbf -> Bratislava hl.st. -> Moskva Kievskaia -> Warszawa-Centralna -> Nykøbing Falster St. -> Vetlanda station -> Ekenässjön station -> Nybro Station
+Da: Wolfsberg in Ktn Bahnhof -> A: Odense St.
+Depth soluzione: 4
+Percorso: Wolfsberg in Ktn Bahnhof -> Villach Hbf -> Freudenstadt Hbf -> Bremen Hbf -> Odense St.
 ------------------------------
 
 TEST 19
 Da: Pula Airport -> A: Porto Campanhã
-Percorso: Pula Airport -> Biograd na Moru Autobusni Kolodvor -> Imperia -> St-Sever Calvados -> Langres -> Barcelona El Prat T1 -> San Fernando de Cádiz -> Lisboa Santa Apolónia -> Porto Campanhã
+Depth soluzione: 3
+Percorso: Pula Airport -> Imperia -> Barcelona El Prat T1 -> Porto Campanhã
 ------------------------------
 
 TEST 20
-Da: Herning St. -> A: Odense St.
-Percorso: Herning St. -> Nybro Station -> Magdeburg Hbf -> Freudenstadt Hbf -> Bratislava hl.st. -> Moskva Kievskaia -> Budapest-Keleti -> Salzburg Hbf -> Villach Hbf -> Pula Airport -> Biograd na Moru Autobusni Kolodvor -> Imperia -> St-Sever Calvados -> Langres -> Charleroi-Ouest -> Luxembourg -> Amsterdam-Centraal -> Odense St.
+Da: Nykøbing Falster St. -> A: Herning St.
+Depth soluzione: 1
+Percorso: Nykøbing Falster St. -> Herning St.
 ------------------------------
 
 TEST 21
 Da: Balsthal -> A: San Fernando de Cádiz
-Percorso: Balsthal -> Rodange -> Freudenstadt Hbf -> Bratislava hl.st. -> Moskva Kievskaia -> Budapest-Keleti -> Salzburg Hbf -> Villach Hbf -> Pula Airport -> Biograd na Moru Autobusni Kolodvor -> Imperia -> St-Sever Calvados -> Langres -> Barcelona El Prat T1 -> San Fernando de Cádiz
+Depth soluzione: 3
+Percorso: Balsthal -> Langres -> Barcelona El Prat T1 -> San Fernando de Cádiz
 ------------------------------
 
 TEST 22
 Da: St-Sever Calvados -> A: Lisboa Santa Apolónia
-Percorso: St-Sever Calvados -> Imperia -> Biograd na Moru Autobusni Kolodvor -> Pula Airport -> Villach Hbf -> Freudenstadt Hbf -> Bratislava hl.st. -> Moskva Kievskaia -> Warszawa-Centralna -> Nykøbing Falster St. -> Vetlanda station -> Ekenässjön station -> Nybro Station -> Magdeburg Hbf -> Antwerpen-Centraal -> Bruxelles-Midi -> Rodange -> Balsthal -> Langres -> Barcelona El Prat T1 -> San Fernando de Cádiz -> Lisboa Santa Apolónia
+Depth soluzione: 3
+Percorso: St-Sever Calvados -> Barcelona El Prat T1 -> San Fernando de Cádiz -> Lisboa Santa Apolónia
 ------------------------------
 
 TEST 23
 Da: Luxembourg Gare Centrale (Quai 13) -> A: Magdeburg Hbf
-Percorso: Luxembourg Gare Centrale (Quai 13) -> Freudenstadt Hbf -> Bratislava hl.st. -> Moskva Kievskaia -> Budapest-Keleti -> Salzburg Hbf -> Villach Hbf -> Pula Airport -> Biograd na Moru Autobusni Kolodvor -> Imperia -> St-Sever Calvados -> Langres -> Charleroi-Ouest -> Luxembourg -> Amsterdam-Centraal -> Odense St. -> Antwerpen-Centraal -> Herning St. -> Nybro Station -> Magdeburg Hbf
+Depth soluzione: 3
+Percorso: Luxembourg Gare Centrale (Quai 13) -> Freudenstadt Hbf -> Bremen Hbf -> Magdeburg Hbf
 ------------------------------
 
 TEST 24
 Da: Ústí nad Labem hl.n. -> A: Bruxelles-Midi
-Percorso: Ústí nad Labem hl.n. -> Łódź Kaliska -> Warszawa-Centralna -> Nykøbing Falster St. -> Vetlanda station -> Ekenässjön station -> Nybro Station -> Magdeburg Hbf -> Freudenstadt Hbf -> Bratislava hl.st. -> Moskva Kievskaia -> Budapest-Keleti -> Salzburg Hbf -> Villach Hbf -> Pula Airport -> Biograd na Moru Autobusni Kolodvor -> Imperia -> St-Sever Calvados -> Langres -> Charleroi-Ouest -> Luxembourg -> Amsterdam-Centraal -> Odense St. -> Antwerpen-Centraal -> Bruxelles-Midi
+Depth soluzione: 6
+Percorso: Ústí nad Labem hl.n. -> Praha hl.n. -> Bratislava hl.st. -> Freudenstadt Hbf -> Luxembourg Gare Centrale (Quai 13) -> Luxembourg -> Bruxelles-Midi
 ------------------------------
 
 TEST 25
 Da: Bellinzona -> A: Amsterdam-Centraal
-Percorso: Bellinzona -> Nardò Città -> Imperia -> Biograd na Moru Autobusni Kolodvor -> Pula Airport -> Villach Hbf -> Freudenstadt Hbf -> Bratislava hl.st. -> Moskva Kievskaia -> Warszawa-Centralna -> Nykøbing Falster St. -> Vetlanda station -> Ekenässjön station -> Nybro Station -> Magdeburg Hbf -> Antwerpen-Centraal -> Bruxelles-Midi -> Rodange -> Balsthal -> Langres -> Charleroi-Ouest -> Luxembourg -> Amsterdam-Centraal
+Depth soluzione: 6
+Percorso: Bellinzona -> Frauenfeld Bahnhof -> Freudenstadt Hbf -> Luxembourg Gare Centrale (Quai 13) -> Luxembourg -> Antwerpen-Centraal -> Amsterdam-Centraal
 ------------------------------
 
 TEST 26
 Da: Warszawa-Centralna -> A: Newhaven Town
-Percorso: Warszawa-Centralna -> Nykøbing Falster St. -> Vetlanda station -> Ekenässjön station -> Nybro Station -> Magdeburg Hbf -> Freudenstadt Hbf -> Bratislava hl.st. -> Moskva Kievskaia -> Budapest-Keleti -> Salzburg Hbf -> Villach Hbf -> Pula Airport -> Biograd na Moru Autobusni Kolodvor -> Imperia -> St-Sever Calvados -> Langres -> Charleroi-Ouest -> Luxembourg -> Amsterdam-Centraal -> Odense St. -> Antwerpen-Centraal -> Bruxelles-Midi -> Den Haag Centraal -> Newhaven Town
+Depth soluzione: 5
+Percorso: Warszawa-Centralna -> Bratislava hl.st. -> Freudenstadt Hbf -> Balsthal -> Langres -> Newhaven Town
 ------------------------------
 
 TEST 27
 Da: Ústí nad Labem hl.n. -> A: Łódź Kaliska
+Depth soluzione: 1
 Percorso: Ústí nad Labem hl.n. -> Łódź Kaliska
 ------------------------------
 
 TEST 28
 Da: Ústí nad Labem hl.n. -> A: Antwerpen-Centraal
-Percorso: Ústí nad Labem hl.n. -> Łódź Kaliska -> Warszawa-Centralna -> Nykøbing Falster St. -> Vetlanda station -> Ekenässjön station -> Nybro Station -> Magdeburg Hbf -> Freudenstadt Hbf -> Bratislava hl.st. -> Moskva Kievskaia -> Budapest-Keleti -> Salzburg Hbf -> Villach Hbf -> Pula Airport -> Biograd na Moru Autobusni Kolodvor -> Imperia -> St-Sever Calvados -> Langres -> Charleroi-Ouest -> Luxembourg -> Amsterdam-Centraal -> Odense St. -> Antwerpen-Centraal
+Depth soluzione: 6
+Percorso: Ústí nad Labem hl.n. -> Łódź Kaliska -> Warszawa-Centralna -> Magdeburg Hbf -> Bremen Hbf -> Odense St. -> Antwerpen-Centraal
 ------------------------------
 
 TEST 29
-Da: Bruxelles-Midi -> A: Nybro Station
-Percorso: Bruxelles-Midi -> Antwerpen-Centraal -> Odense St. -> Amsterdam-Centraal -> Herning St. -> Nybro Station
+Da: Bruxelles-Midi -> A: Odense St.
+Depth soluzione: 2
+Percorso: Bruxelles-Midi -> Antwerpen-Centraal -> Odense St.
 ------------------------------
 
 TEST 30
 Da: Budapest-Keleti -> A: Leiden Lammenschans
-Percorso: Budapest-Keleti -> Moskva Kievskaia -> Bratislava hl.st. -> Praha hl.n. -> Freudenstadt Hbf -> Villach Hbf -> Pula Airport -> Biograd na Moru Autobusni Kolodvor -> Imperia -> St-Sever Calvados -> Langres -> Charleroi-Ouest -> Luxembourg -> Amsterdam-Centraal -> Odense St. -> Antwerpen-Centraal -> Bruxelles-Midi -> Den Haag Centraal -> Leiden Lammenschans
+Depth soluzione: 6
+Percorso: Budapest-Keleti -> Bratislava hl.st. -> Freudenstadt Hbf -> Luxembourg Gare Centrale (Quai 13) -> Luxembourg -> Antwerpen-Centraal -> Leiden Lammenschans
 ------------------------------
 
 TEST 31
 Da: Ústí nad Labem hl.n. -> A: Bruxelles-Midi
-Percorso: Ústí nad Labem hl.n. -> Łódź Kaliska -> Warszawa-Centralna -> Nykøbing Falster St. -> Vetlanda station -> Ekenässjön station -> Nybro Station -> Magdeburg Hbf -> Freudenstadt Hbf -> Bratislava hl.st. -> Moskva Kievskaia -> Budapest-Keleti -> Salzburg Hbf -> Villach Hbf -> Pula Airport -> Biograd na Moru Autobusni Kolodvor -> Imperia -> St-Sever Calvados -> Langres -> Charleroi-Ouest -> Luxembourg -> Amsterdam-Centraal -> Odense St. -> Antwerpen-Centraal -> Bruxelles-Midi
+Depth soluzione: 6
+Percorso: Ústí nad Labem hl.n. -> Praha hl.n. -> Bratislava hl.st. -> Freudenstadt Hbf -> Luxembourg Gare Centrale (Quai 13) -> Luxembourg -> Bruxelles-Midi
 ------------------------------
 
 TEST 32
 Da: Den Haag Centraal -> A: Frauenfeld Bahnhof
-Percorso: Den Haag Centraal -> Newhaven Town -> Langres -> Charleroi-Ouest -> Luxembourg -> Freudenstadt Hbf -> Bratislava hl.st. -> Moskva Kievskaia -> Budapest-Keleti -> Salzburg Hbf -> Villach Hbf -> Pula Airport -> Biograd na Moru Autobusni Kolodvor -> Imperia -> St-Sever Calvados -> Nomain -> Rodange -> Balsthal -> Frauenfeld Bahnhof
+Depth soluzione: 4
+Percorso: Den Haag Centraal -> Newhaven Town -> Langres -> Balsthal -> Frauenfeld Bahnhof
 ------------------------------
 
 TEST 33
 Da: Bruxelles-Midi -> A: St-Sever Calvados
-Percorso: Bruxelles-Midi -> Antwerpen-Centraal -> Odense St. -> Amsterdam-Centraal -> Herning St. -> Nybro Station -> Magdeburg Hbf -> Freudenstadt Hbf -> Bratislava hl.st. -> Moskva Kievskaia -> Budapest-Keleti -> Salzburg Hbf -> Villach Hbf -> Pula Airport -> Biograd na Moru Autobusni Kolodvor -> Imperia -> St-Sever Calvados
+Depth soluzione: 3
+Percorso: Bruxelles-Midi -> Charleroi-Ouest -> Langres -> St-Sever Calvados
 ------------------------------
 
 TEST 34
 Da: Ostrava-Vítkovice -> A: Freudenstadt Hbf
-Percorso: Ostrava-Vítkovice -> Praha hl.n. -> Bratislava hl.st. -> Moskva Kievskaia -> Budapest-Keleti -> Salzburg Hbf -> Villach Hbf -> Freudenstadt Hbf
+Depth soluzione: 3
+Percorso: Ostrava-Vítkovice -> Praha hl.n. -> Bratislava hl.st. -> Freudenstadt Hbf
 ------------------------------
 
 TEST 35
-Da: Herning St. -> A: Lorca-San Diego
-Percorso: Herning St. -> Nybro Station -> Magdeburg Hbf -> Freudenstadt Hbf -> Bratislava hl.st. -> Moskva Kievskaia -> Budapest-Keleti -> Salzburg Hbf -> Villach Hbf -> Pula Airport -> Biograd na Moru Autobusni Kolodvor -> Imperia -> St-Sever Calvados -> Langres -> Barcelona El Prat T1 -> San Fernando de Cádiz -> Lorca-San Diego
+Da: Nykøbing Falster St. -> A: Lorca-San Diego
+Depth soluzione: 8
+Percorso: Nykøbing Falster St. -> Warszawa-Centralna -> Bratislava hl.st. -> Freudenstadt Hbf -> Balsthal -> Langres -> Barcelona El Prat T1 -> San Fernando de Cádiz -> Lorca-San Diego
 ------------------------------
 
 TEST 36
 Da: Praha hl.n. -> A: Newhaven Town
-Percorso: Praha hl.n. -> Bratislava hl.st. -> Moskva Kievskaia -> Budapest-Keleti -> Salzburg Hbf -> Villach Hbf -> Freudenstadt Hbf -> Magdeburg Hbf -> Nybro Station -> Herning St. -> Antwerpen-Centraal -> Bruxelles-Midi -> Rodange -> Balsthal -> Langres -> Charleroi-Ouest -> Luxembourg -> Amsterdam-Centraal -> Den Haag Centraal -> Newhaven Town
+Depth soluzione: 5
+Percorso: Praha hl.n. -> Bratislava hl.st. -> Freudenstadt Hbf -> Balsthal -> Langres -> Newhaven Town
 ------------------------------
 
 TEST 37
 Da: Nomain -> A: Moskva Kievskaia
-Percorso: Nomain -> Langres -> Charleroi-Ouest -> Luxembourg -> Freudenstadt Hbf -> Bratislava hl.st. -> Moskva Kievskaia
+Depth soluzione: 5
+Percorso: Nomain -> Rodange -> Balsthal -> Freudenstadt Hbf -> Bratislava hl.st. -> Moskva Kievskaia
 ------------------------------
 
 TEST 38
 Da: Falkirk High -> A: Warszawa-Centralna
-Percorso: Falkirk High -> Dublin Connolly -> Pembroke Station -> Newhaven Town -> Langres -> Charleroi-Ouest -> Luxembourg -> Freudenstadt Hbf -> Bratislava hl.st. -> Moskva Kievskaia -> Budapest-Keleti -> Salzburg Hbf -> Villach Hbf -> Pula Airport -> Biograd na Moru Autobusni Kolodvor -> Imperia -> St-Sever Calvados -> Nomain -> Rodange -> Bruxelles-Midi -> Antwerpen-Centraal -> Odense St. -> Amsterdam-Centraal -> Herning St. -> Nybro Station -> Magdeburg Hbf -> Warszawa-Centralna
+Depth soluzione: 6
+Percorso: Falkirk High -> Newhaven Town -> Langres -> Balsthal -> Freudenstadt Hbf -> Bratislava hl.st. -> Warszawa-Centralna
 ------------------------------
 
 TEST 39
 Da: Barcelona El Prat T1 -> A: Ostrava-Vítkovice
-Percorso: Barcelona El Prat T1 -> St-Sever Calvados -> Imperia -> Biograd na Moru Autobusni Kolodvor -> Pula Airport -> Villach Hbf -> Freudenstadt Hbf -> Bratislava hl.st. -> Moskva Kievskaia -> Warszawa-Centralna -> Łódź Kaliska -> Ústí nad Labem hl.n. -> Praha hl.n. -> Ostrava-Vítkovice
+Depth soluzione: 6
+Percorso: Barcelona El Prat T1 -> Langres -> Balsthal -> Freudenstadt Hbf -> Bratislava hl.st. -> Praha hl.n. -> Ostrava-Vítkovice
 ------------------------------
 
 TEST 40
 Da: Barcelona El Prat T1 -> A: Porto Campanhã
-Percorso: Barcelona El Prat T1 -> San Fernando de Cádiz -> Lisboa Santa Apolónia -> Porto Campanhã
+Depth soluzione: 1
+Percorso: Barcelona El Prat T1 -> Porto Campanhã
 ------------------------------
 
 TEST 41
 Da: Wolfsberg in Ktn Bahnhof -> A: Rodange
-Percorso: Wolfsberg in Ktn Bahnhof -> Villach Hbf -> Freudenstadt Hbf -> Bratislava hl.st. -> Moskva Kievskaia -> Warszawa-Centralna -> Nykøbing Falster St. -> Vetlanda station -> Ekenässjön station -> Nybro Station -> Magdeburg Hbf -> Antwerpen-Centraal -> Bruxelles-Midi -> Rodange
+Depth soluzione: 4
+Percorso: Wolfsberg in Ktn Bahnhof -> Villach Hbf -> Freudenstadt Hbf -> Balsthal -> Rodange
 ------------------------------
 
 TEST 42
-Da: Rodange -> A: Nykøbing Falster St.
-Percorso: Rodange -> Balsthal -> Freudenstadt Hbf -> Bratislava hl.st. -> Moskva Kievskaia -> Budapest-Keleti -> Salzburg Hbf -> Villach Hbf -> Pula Airport -> Biograd na Moru Autobusni Kolodvor -> Imperia -> St-Sever Calvados -> Langres -> Charleroi-Ouest -> Luxembourg -> Amsterdam-Centraal -> Odense St. -> Antwerpen-Centraal -> Herning St. -> Nybro Station -> Magdeburg Hbf -> Warszawa-Centralna -> Nykøbing Falster St.
+Da: Rodange -> A: Vetlanda station
+Depth soluzione: 6
+Percorso: Rodange -> Balsthal -> Freudenstadt Hbf -> Bratislava hl.st. -> Warszawa-Centralna -> Nykøbing Falster St. -> Vetlanda station
 ------------------------------
 
 TEST 43
 Da: Porto Sao Bento -> A: Frauenfeld Bahnhof
-Percorso: Porto Sao Bento -> Porto Campanhã -> Barcelona El Prat T1 -> St-Sever Calvados -> Imperia -> Biograd na Moru Autobusni Kolodvor -> Pula Airport -> Villach Hbf -> Freudenstadt Hbf -> Bratislava hl.st. -> Moskva Kievskaia -> Warszawa-Centralna -> Nykøbing Falster St. -> Vetlanda station -> Ekenässjön station -> Nybro Station -> Magdeburg Hbf -> Antwerpen-Centraal -> Bruxelles-Midi -> Rodange -> Balsthal -> Frauenfeld Bahnhof
+Depth soluzione: 5
+Percorso: Porto Sao Bento -> Porto Campanhã -> Barcelona El Prat T1 -> Langres -> Balsthal -> Frauenfeld Bahnhof
 ------------------------------
 
 TEST 44
 Da: Porto Sao Bento -> A: Porto Campanhã
+Depth soluzione: 1
 Percorso: Porto Sao Bento -> Porto Campanhã
 ------------------------------
 
 TEST 45
 Da: San Fernando de Cádiz -> A: Moskva Kievskaia
-Percorso: San Fernando de Cádiz -> Barcelona El Prat T1 -> St-Sever Calvados -> Imperia -> Biograd na Moru Autobusni Kolodvor -> Pula Airport -> Villach Hbf -> Freudenstadt Hbf -> Bratislava hl.st. -> Moskva Kievskaia
+Depth soluzione: 6
+Percorso: San Fernando de Cádiz -> Barcelona El Prat T1 -> Langres -> Balsthal -> Freudenstadt Hbf -> Bratislava hl.st. -> Moskva Kievskaia
 ------------------------------
 
 TEST 46
-Da: Leiden Lammenschans -> A: Vetlanda station
-Percorso: Leiden Lammenschans -> Antwerpen-Centraal -> Bruxelles-Midi -> Rodange -> Balsthal -> Freudenstadt Hbf -> Bratislava hl.st. -> Moskva Kievskaia -> Budapest-Keleti -> Salzburg Hbf -> Villach Hbf -> Pula Airport -> Biograd na Moru Autobusni Kolodvor -> Imperia -> St-Sever Calvados -> Langres -> Charleroi-Ouest -> Luxembourg -> Amsterdam-Centraal -> Odense St. -> Bremen Hbf -> Magdeburg Hbf -> Nybro Station -> Herning St. -> Nykøbing Falster St. -> Vetlanda station
+Da: Leiden Lammenschans -> A: Ekenässjön station
+Depth soluzione: 6
+Percorso: Leiden Lammenschans -> Antwerpen-Centraal -> Odense St. -> Bremen Hbf -> Magdeburg Hbf -> Nybro Station -> Ekenässjön station
 ------------------------------
 
 TEST 47
-Da: Odense St. -> A: Herning St.
-Percorso: Odense St. -> Antwerpen-Centraal -> Bruxelles-Midi -> Rodange -> Balsthal -> Freudenstadt Hbf -> Bratislava hl.st. -> Moskva Kievskaia -> Budapest-Keleti -> Salzburg Hbf -> Villach Hbf -> Pula Airport -> Biograd na Moru Autobusni Kolodvor -> Imperia -> St-Sever Calvados -> Langres -> Charleroi-Ouest -> Luxembourg -> Amsterdam-Centraal -> Herning St.
+Da: Herning St. -> A: Nykøbing Falster St.
+Depth soluzione: 1
+Percorso: Herning St. -> Nykøbing Falster St.
 ------------------------------
 
 TEST 48
 Da: Rodange -> A: Leiden Lammenschans
-Percorso: Rodange -> Balsthal -> Freudenstadt Hbf -> Bratislava hl.st. -> Moskva Kievskaia -> Budapest-Keleti -> Salzburg Hbf -> Villach Hbf -> Pula Airport -> Biograd na Moru Autobusni Kolodvor -> Imperia -> St-Sever Calvados -> Langres -> Charleroi-Ouest -> Luxembourg -> Amsterdam-Centraal -> Odense St. -> Antwerpen-Centraal -> Bruxelles-Midi -> Den Haag Centraal -> Leiden Lammenschans
+Depth soluzione: 3
+Percorso: Rodange -> Luxembourg -> Antwerpen-Centraal -> Leiden Lammenschans
 ------------------------------
 
 TEST 49
 Da: Nardò Città -> A: Moskva Kievskaia
+Depth soluzione: 5
 Percorso: Nardò Città -> Bellinzona -> Frauenfeld Bahnhof -> Freudenstadt Hbf -> Bratislava hl.st. -> Moskva Kievskaia
 ------------------------------
 
 TEST 50
 Da: Bellinzona -> A: Rodange
-Percorso: Bellinzona -> Nardò Città -> Imperia -> Biograd na Moru Autobusni Kolodvor -> Pula Airport -> Villach Hbf -> Freudenstadt Hbf -> Bratislava hl.st. -> Moskva Kievskaia -> Warszawa-Centralna -> Nykøbing Falster St. -> Vetlanda station -> Ekenässjön station -> Nybro Station -> Magdeburg Hbf -> Antwerpen-Centraal -> Bruxelles-Midi -> Rodange
+Depth soluzione: 3
+Percorso: Bellinzona -> Frauenfeld Bahnhof -> Balsthal -> Rodange
 ------------------------------
 
 TEST 51
 Da: Ostrava-Vítkovice -> A: Wolfsberg in Ktn Bahnhof
-Percorso: Ostrava-Vítkovice -> Praha hl.n. -> Bratislava hl.st. -> Moskva Kievskaia -> Budapest-Keleti -> Salzburg Hbf -> Villach Hbf -> Wolfsberg in Ktn Bahnhof
+Depth soluzione: 5
+Percorso: Ostrava-Vítkovice -> Praha hl.n. -> Bratislava hl.st. -> Freudenstadt Hbf -> Villach Hbf -> Wolfsberg in Ktn Bahnhof
 ------------------------------
 
 TEST 52
 Da: Wolfsberg in Ktn Bahnhof -> A: Newhaven Town
-Percorso: Wolfsberg in Ktn Bahnhof -> Villach Hbf -> Freudenstadt Hbf -> Bratislava hl.st. -> Moskva Kievskaia -> Warszawa-Centralna -> Nykøbing Falster St. -> Vetlanda station -> Ekenässjön station -> Nybro Station -> Magdeburg Hbf -> Antwerpen-Centraal -> Bruxelles-Midi -> Rodange -> Balsthal -> Langres -> Charleroi-Ouest -> Luxembourg -> Amsterdam-Centraal -> Den Haag Centraal -> Newhaven Town
+Depth soluzione: 5
+Percorso: Wolfsberg in Ktn Bahnhof -> Villach Hbf -> Freudenstadt Hbf -> Balsthal -> Langres -> Newhaven Town
 ------------------------------
 
 TEST 53
 Da: Lisboa Santa Apolónia -> A: Nomain
-Percorso: Lisboa Santa Apolónia -> Barcelona El Prat T1 -> St-Sever Calvados -> Imperia -> Biograd na Moru Autobusni Kolodvor -> Pula Airport -> Villach Hbf -> Freudenstadt Hbf -> Bratislava hl.st. -> Moskva Kievskaia -> Warszawa-Centralna -> Nykøbing Falster St. -> Vetlanda station -> Ekenässjön station -> Nybro Station -> Magdeburg Hbf -> Antwerpen-Centraal -> Bruxelles-Midi -> Rodange -> Balsthal -> Langres -> Charleroi-Ouest -> Nomain
+Depth soluzione: 4
+Percorso: Lisboa Santa Apolónia -> San Fernando de Cádiz -> Barcelona El Prat T1 -> St-Sever Calvados -> Nomain
 ------------------------------
 
 TEST 54
 Da: Porto Sao Bento -> A: Villach Hbf
-Percorso: Porto Sao Bento -> Porto Campanhã -> Barcelona El Prat T1 -> St-Sever Calvados -> Imperia -> Biograd na Moru Autobusni Kolodvor -> Pula Airport -> Villach Hbf
+Depth soluzione: 5
+Percorso: Porto Sao Bento -> Porto Campanhã -> Barcelona El Prat T1 -> Imperia -> Pula Airport -> Villach Hbf
 ------------------------------
 
 TEST 55
 Da: Bremen Hbf -> A: Barcelona El Prat T1
-Percorso: Bremen Hbf -> Odense St. -> Antwerpen-Centraal -> Bruxelles-Midi -> Rodange -> Balsthal -> Freudenstadt Hbf -> Bratislava hl.st. -> Moskva Kievskaia -> Budapest-Keleti -> Salzburg Hbf -> Villach Hbf -> Pula Airport -> Biograd na Moru Autobusni Kolodvor -> Imperia -> St-Sever Calvados -> Langres -> Barcelona El Prat T1
+Depth soluzione: 4
+Percorso: Bremen Hbf -> Freudenstadt Hbf -> Balsthal -> Langres -> Barcelona El Prat T1
 ------------------------------
 
 TEST 56
 Da: Ostrava-Vítkovice -> A: Bruxelles-Midi
-Percorso: Ostrava-Vítkovice -> Praha hl.n. -> Bratislava hl.st. -> Moskva Kievskaia -> Budapest-Keleti -> Salzburg Hbf -> Villach Hbf -> Freudenstadt Hbf -> Magdeburg Hbf -> Nybro Station -> Herning St. -> Antwerpen-Centraal -> Bruxelles-Midi
+Depth soluzione: 6
+Percorso: Ostrava-Vítkovice -> Praha hl.n. -> Bratislava hl.st. -> Freudenstadt Hbf -> Luxembourg Gare Centrale (Quai 13) -> Luxembourg -> Bruxelles-Midi
 ------------------------------
 
 TEST 57
 Da: Lisboa Santa Apolónia -> A: Falkirk High
-Percorso: Lisboa Santa Apolónia -> Barcelona El Prat T1 -> St-Sever Calvados -> Imperia -> Biograd na Moru Autobusni Kolodvor -> Pula Airport -> Villach Hbf -> Freudenstadt Hbf -> Bratislava hl.st. -> Moskva Kievskaia -> Warszawa-Centralna -> Nykøbing Falster St. -> Vetlanda station -> Ekenässjön station -> Nybro Station -> Magdeburg Hbf -> Antwerpen-Centraal -> Bruxelles-Midi -> Rodange -> Balsthal -> Langres -> Charleroi-Ouest -> Luxembourg -> Amsterdam-Centraal -> Den Haag Centraal -> Newhaven Town -> Dublin Connolly -> Falkirk High
+Depth soluzione: 5
+Percorso: Lisboa Santa Apolónia -> San Fernando de Cádiz -> Barcelona El Prat T1 -> Langres -> Newhaven Town -> Falkirk High
 ------------------------------
 
 TEST 58
 Da: Rodange -> A: Leiden Lammenschans
-Percorso: Rodange -> Balsthal -> Freudenstadt Hbf -> Bratislava hl.st. -> Moskva Kievskaia -> Budapest-Keleti -> Salzburg Hbf -> Villach Hbf -> Pula Airport -> Biograd na Moru Autobusni Kolodvor -> Imperia -> St-Sever Calvados -> Langres -> Charleroi-Ouest -> Luxembourg -> Amsterdam-Centraal -> Odense St. -> Antwerpen-Centraal -> Bruxelles-Midi -> Den Haag Centraal -> Leiden Lammenschans
+Depth soluzione: 3
+Percorso: Rodange -> Luxembourg -> Antwerpen-Centraal -> Leiden Lammenschans
 ------------------------------
 
 TEST 59
-Da: Odense St. -> A: Pembroke Station
-Percorso: Odense St. -> Antwerpen-Centraal -> Bruxelles-Midi -> Rodange -> Balsthal -> Freudenstadt Hbf -> Bratislava hl.st. -> Moskva Kievskaia -> Budapest-Keleti -> Salzburg Hbf -> Villach Hbf -> Pula Airport -> Biograd na Moru Autobusni Kolodvor -> Imperia -> St-Sever Calvados -> Langres -> Charleroi-Ouest -> Luxembourg -> Amsterdam-Centraal -> Den Haag Centraal -> Newhaven Town -> Dublin Connolly -> Pembroke Station
+Da: Herning St. -> A: Pembroke Station
+Depth soluzione: 8
+Percorso: Herning St. -> Nybro Station -> Magdeburg Hbf -> Bremen Hbf -> Odense St. -> Antwerpen-Centraal -> Den Haag Centraal -> Newhaven Town -> Pembroke Station
 ------------------------------
 
 TEST 60
 Da: Antwerpen-Centraal -> A: Rodange
-Percorso: Antwerpen-Centraal -> Bruxelles-Midi -> Rodange
+Depth soluzione: 2
+Percorso: Antwerpen-Centraal -> Luxembourg -> Rodange
 ------------------------------
 
 TEST 61
 Da: Dublin Connolly -> A: Ostrava-Vítkovice
-Percorso: Dublin Connolly -> Pembroke Station -> Newhaven Town -> Langres -> Charleroi-Ouest -> Luxembourg -> Freudenstadt Hbf -> Bratislava hl.st. -> Moskva Kievskaia -> Budapest-Keleti -> Salzburg Hbf -> Villach Hbf -> Pula Airport -> Biograd na Moru Autobusni Kolodvor -> Imperia -> St-Sever Calvados -> Nomain -> Rodange -> Bruxelles-Midi -> Antwerpen-Centraal -> Odense St. -> Amsterdam-Centraal -> Herning St. -> Nybro Station -> Magdeburg Hbf -> Warszawa-Centralna -> Łódź Kaliska -> Ústí nad Labem hl.n. -> Praha hl.n. -> Ostrava-Vítkovice
+Depth soluzione: 7
+Percorso: Dublin Connolly -> Newhaven Town -> Langres -> Balsthal -> Freudenstadt Hbf -> Bratislava hl.st. -> Praha hl.n. -> Ostrava-Vítkovice
 ------------------------------
 
 TEST 62
 Da: Salzburg Hbf -> A: Porto Sao Bento
-Percorso: Salzburg Hbf -> Bratislava hl.st. -> Moskva Kievskaia -> Warszawa-Centralna -> Nykøbing Falster St. -> Vetlanda station -> Ekenässjön station -> Nybro Station -> Magdeburg Hbf -> Freudenstadt Hbf -> Villach Hbf -> Pula Airport -> Biograd na Moru Autobusni Kolodvor -> Imperia -> St-Sever Calvados -> Langres -> Barcelona El Prat T1 -> San Fernando de Cádiz -> Lisboa Santa Apolónia -> Porto Campanhã -> Porto Sao Bento
+Depth soluzione: 6
+Percorso: Salzburg Hbf -> Villach Hbf -> Pula Airport -> Imperia -> Barcelona El Prat T1 -> Porto Campanhã -> Porto Sao Bento
 ------------------------------
 
 TEST 63
 Da: Lorca-San Diego -> A: Barcelona El Prat T1
+Depth soluzione: 2
 Percorso: Lorca-San Diego -> San Fernando de Cádiz -> Barcelona El Prat T1
 ------------------------------
 
 TEST 64
 Da: Praha hl.n. -> A: Porto Campanhã
-Percorso: Praha hl.n. -> Bratislava hl.st. -> Moskva Kievskaia -> Budapest-Keleti -> Salzburg Hbf -> Villach Hbf -> Freudenstadt Hbf -> Magdeburg Hbf -> Nybro Station -> Herning St. -> Antwerpen-Centraal -> Bruxelles-Midi -> Rodange -> Balsthal -> Langres -> Charleroi-Ouest -> Nomain -> St-Sever Calvados -> Imperia -> Barcelona El Prat T1 -> San Fernando de Cádiz -> Lisboa Santa Apolónia -> Porto Campanhã
+Depth soluzione: 6
+Percorso: Praha hl.n. -> Bratislava hl.st. -> Freudenstadt Hbf -> Balsthal -> Langres -> Barcelona El Prat T1 -> Porto Campanhã
 ------------------------------
 
 TEST 65
 Da: Leiden Lammenschans -> A: Villach Hbf
-Percorso: Leiden Lammenschans -> Antwerpen-Centraal -> Bruxelles-Midi -> Rodange -> Balsthal -> Freudenstadt Hbf -> Bratislava hl.st. -> Moskva Kievskaia -> Budapest-Keleti -> Salzburg Hbf -> Villach Hbf
+Depth soluzione: 5
+Percorso: Leiden Lammenschans -> Antwerpen-Centraal -> Odense St. -> Bremen Hbf -> Freudenstadt Hbf -> Villach Hbf
 ------------------------------
 
 TEST 66
 Da: Catanzaro (Germaneto) -> A: Antwerpen-Centraal
-Percorso: Catanzaro (Germaneto) -> Nardò Città -> Bellinzona -> Frauenfeld Bahnhof -> Freudenstadt Hbf -> Bratislava hl.st. -> Moskva Kievskaia -> Budapest-Keleti -> Salzburg Hbf -> Villach Hbf -> Pula Airport -> Biograd na Moru Autobusni Kolodvor -> Imperia -> St-Sever Calvados -> Langres -> Charleroi-Ouest -> Luxembourg -> Amsterdam-Centraal -> Odense St. -> Antwerpen-Centraal
+Depth soluzione: 7
+Percorso: Catanzaro (Germaneto) -> Nardò Città -> Bellinzona -> Frauenfeld Bahnhof -> Freudenstadt Hbf -> Luxembourg Gare Centrale (Quai 13) -> Luxembourg -> Antwerpen-Centraal
 ------------------------------
 
 TEST 67
 Da: Catanzaro (Germaneto) -> A: Magdeburg Hbf
-Percorso: Catanzaro (Germaneto) -> Nardò Città -> Bellinzona -> Frauenfeld Bahnhof -> Freudenstadt Hbf -> Bratislava hl.st. -> Moskva Kievskaia -> Budapest-Keleti -> Salzburg Hbf -> Villach Hbf -> Pula Airport -> Biograd na Moru Autobusni Kolodvor -> Imperia -> St-Sever Calvados -> Langres -> Charleroi-Ouest -> Luxembourg -> Amsterdam-Centraal -> Odense St. -> Antwerpen-Centraal -> Herning St. -> Nybro Station -> Magdeburg Hbf
+Depth soluzione: 6
+Percorso: Catanzaro (Germaneto) -> Nardò Città -> Bellinzona -> Frauenfeld Bahnhof -> Freudenstadt Hbf -> Bremen Hbf -> Magdeburg Hbf
 ------------------------------
 
 TEST 68
 Da: San Fernando de Cádiz -> A: Freudenstadt Hbf
-Percorso: San Fernando de Cádiz -> Barcelona El Prat T1 -> St-Sever Calvados -> Imperia -> Biograd na Moru Autobusni Kolodvor -> Pula Airport -> Villach Hbf -> Freudenstadt Hbf
+Depth soluzione: 4
+Percorso: San Fernando de Cádiz -> Barcelona El Prat T1 -> Langres -> Balsthal -> Freudenstadt Hbf
 ------------------------------
 
 TEST 69
-Da: Porto Sao Bento -> A: Ekenässjön station
-Percorso: Porto Sao Bento -> Porto Campanhã -> Barcelona El Prat T1 -> St-Sever Calvados -> Imperia -> Biograd na Moru Autobusni Kolodvor -> Pula Airport -> Villach Hbf -> Freudenstadt Hbf -> Bratislava hl.st. -> Moskva Kievskaia -> Warszawa-Centralna -> Nykøbing Falster St. -> Vetlanda station -> Ekenässjön station
+Da: Porto Sao Bento -> A: Nybro Station
+Depth soluzione: 8
+Percorso: Porto Sao Bento -> Porto Campanhã -> Barcelona El Prat T1 -> Langres -> Balsthal -> Freudenstadt Hbf -> Bremen Hbf -> Magdeburg Hbf -> Nybro Station
 ------------------------------
 
 TEST 70
-Da: Nybro Station -> A: Newhaven Town
-Percorso: Nybro Station -> Magdeburg Hbf -> Freudenstadt Hbf -> Bratislava hl.st. -> Moskva Kievskaia -> Budapest-Keleti -> Salzburg Hbf -> Villach Hbf -> Pula Airport -> Biograd na Moru Autobusni Kolodvor -> Imperia -> St-Sever Calvados -> Langres -> Charleroi-Ouest -> Luxembourg -> Amsterdam-Centraal -> Odense St. -> Antwerpen-Centraal -> Bruxelles-Midi -> Den Haag Centraal -> Newhaven Town
+Da: Odense St. -> A: Newhaven Town
+Depth soluzione: 3
+Percorso: Odense St. -> Antwerpen-Centraal -> Den Haag Centraal -> Newhaven Town
 ------------------------------
 
 TEST 71
-Da: Herning St. -> A: Nybro Station
-Percorso: Herning St. -> Nybro Station
+Da: Nykøbing Falster St. -> A: Odense St.
+Depth soluzione: 4
+Percorso: Nykøbing Falster St. -> Warszawa-Centralna -> Magdeburg Hbf -> Bremen Hbf -> Odense St.
 ------------------------------
 
 TEST 72
 Da: Lorca-San Diego -> A: Charleroi-Ouest
-Percorso: Lorca-San Diego -> San Fernando de Cádiz -> Barcelona El Prat T1 -> St-Sever Calvados -> Imperia -> Biograd na Moru Autobusni Kolodvor -> Pula Airport -> Villach Hbf -> Freudenstadt Hbf -> Bratislava hl.st. -> Moskva Kievskaia -> Warszawa-Centralna -> Nykøbing Falster St. -> Vetlanda station -> Ekenässjön station -> Nybro Station -> Magdeburg Hbf -> Antwerpen-Centraal -> Bruxelles-Midi -> Rodange -> Balsthal -> Langres -> Charleroi-Ouest
+Depth soluzione: 4
+Percorso: Lorca-San Diego -> San Fernando de Cádiz -> Barcelona El Prat T1 -> Langres -> Charleroi-Ouest
 ------------------------------
 
 TEST 73
 Da: Wolfsberg in Ktn Bahnhof -> A: Pula Airport
-Percorso: Wolfsberg in Ktn Bahnhof -> Villach Hbf -> Freudenstadt Hbf -> Bratislava hl.st. -> Moskva Kievskaia -> Warszawa-Centralna -> Nykøbing Falster St. -> Vetlanda station -> Ekenässjön station -> Nybro Station -> Magdeburg Hbf -> Antwerpen-Centraal -> Bruxelles-Midi -> Rodange -> Balsthal -> Langres -> Charleroi-Ouest -> Nomain -> St-Sever Calvados -> Imperia -> Biograd na Moru Autobusni Kolodvor -> Pula Airport
+Depth soluzione: 2
+Percorso: Wolfsberg in Ktn Bahnhof -> Villach Hbf -> Pula Airport
 ------------------------------
 
 TEST 74
 Da: Praha hl.n. -> A: Leiden Lammenschans
-Percorso: Praha hl.n. -> Bratislava hl.st. -> Moskva Kievskaia -> Budapest-Keleti -> Salzburg Hbf -> Villach Hbf -> Freudenstadt Hbf -> Magdeburg Hbf -> Nybro Station -> Herning St. -> Antwerpen-Centraal -> Bruxelles-Midi -> Rodange -> Balsthal -> Langres -> Charleroi-Ouest -> Luxembourg -> Amsterdam-Centraal -> Den Haag Centraal -> Leiden Lammenschans
+Depth soluzione: 6
+Percorso: Praha hl.n. -> Bratislava hl.st. -> Freudenstadt Hbf -> Luxembourg Gare Centrale (Quai 13) -> Luxembourg -> Antwerpen-Centraal -> Leiden Lammenschans
 ------------------------------
 
 TEST 75
 Da: Warszawa-Centralna -> A: Dublin Connolly
-Percorso: Warszawa-Centralna -> Nykøbing Falster St. -> Vetlanda station -> Ekenässjön station -> Nybro Station -> Magdeburg Hbf -> Freudenstadt Hbf -> Bratislava hl.st. -> Moskva Kievskaia -> Budapest-Keleti -> Salzburg Hbf -> Villach Hbf -> Pula Airport -> Biograd na Moru Autobusni Kolodvor -> Imperia -> St-Sever Calvados -> Langres -> Charleroi-Ouest -> Luxembourg -> Amsterdam-Centraal -> Odense St. -> Antwerpen-Centraal -> Bruxelles-Midi -> Den Haag Centraal -> Newhaven Town -> Dublin Connolly
+Depth soluzione: 6
+Percorso: Warszawa-Centralna -> Bratislava hl.st. -> Freudenstadt Hbf -> Balsthal -> Langres -> Newhaven Town -> Dublin Connolly
 ------------------------------
 
 TEST 76
 Da: Pembroke Station -> A: Leiden Lammenschans
-Percorso: Pembroke Station -> Dublin Connolly -> Falkirk High -> Newhaven Town -> Langres -> Charleroi-Ouest -> Luxembourg -> Freudenstadt Hbf -> Bratislava hl.st. -> Moskva Kievskaia -> Budapest-Keleti -> Salzburg Hbf -> Villach Hbf -> Pula Airport -> Biograd na Moru Autobusni Kolodvor -> Imperia -> St-Sever Calvados -> Nomain -> Rodange -> Bruxelles-Midi -> Antwerpen-Centraal -> Odense St. -> Amsterdam-Centraal -> Den Haag Centraal -> Leiden Lammenschans
+Depth soluzione: 3
+Percorso: Pembroke Station -> Newhaven Town -> Den Haag Centraal -> Leiden Lammenschans
 ------------------------------
 
 TEST 77
 Da: Moskva Kievskaia -> A: Imperia
-Percorso: Moskva Kievskaia -> Budapest-Keleti -> Salzburg Hbf -> Bratislava hl.st. -> Praha hl.n. -> Freudenstadt Hbf -> Villach Hbf -> Pula Airport -> Biograd na Moru Autobusni Kolodvor -> Imperia
+Depth soluzione: 5
+Percorso: Moskva Kievskaia -> Budapest-Keleti -> Salzburg Hbf -> Villach Hbf -> Pula Airport -> Imperia
 ------------------------------
 
 TEST 78
 Da: Leiden Lammenschans -> A: Bruxelles-Midi
+Depth soluzione: 2
 Percorso: Leiden Lammenschans -> Antwerpen-Centraal -> Bruxelles-Midi
 ------------------------------
 
 TEST 79
 Da: Warszawa-Centralna -> A: Barcelona El Prat T1
-Percorso: Warszawa-Centralna -> Nykøbing Falster St. -> Vetlanda station -> Ekenässjön station -> Nybro Station -> Magdeburg Hbf -> Freudenstadt Hbf -> Bratislava hl.st. -> Moskva Kievskaia -> Budapest-Keleti -> Salzburg Hbf -> Villach Hbf -> Pula Airport -> Biograd na Moru Autobusni Kolodvor -> Imperia -> St-Sever Calvados -> Langres -> Barcelona El Prat T1
+Depth soluzione: 5
+Percorso: Warszawa-Centralna -> Bratislava hl.st. -> Freudenstadt Hbf -> Balsthal -> Langres -> Barcelona El Prat T1
 ------------------------------
 
 TEST 80
 Da: Langres -> A: Pembroke Station
-Percorso: Langres -> Charleroi-Ouest -> Luxembourg -> Freudenstadt Hbf -> Bratislava hl.st. -> Moskva Kievskaia -> Budapest-Keleti -> Salzburg Hbf -> Villach Hbf -> Pula Airport -> Biograd na Moru Autobusni Kolodvor -> Imperia -> St-Sever Calvados -> Nomain -> Rodange -> Bruxelles-Midi -> Antwerpen-Centraal -> Odense St. -> Amsterdam-Centraal -> Den Haag Centraal -> Newhaven Town -> Dublin Connolly -> Pembroke Station
+Depth soluzione: 2
+Percorso: Langres -> Newhaven Town -> Pembroke Station
 ------------------------------
 
 TEST 81
 Da: Salzburg Hbf -> A: Leiden Lammenschans
-Percorso: Salzburg Hbf -> Bratislava hl.st. -> Moskva Kievskaia -> Warszawa-Centralna -> Nykøbing Falster St. -> Vetlanda station -> Ekenässjön station -> Nybro Station -> Magdeburg Hbf -> Freudenstadt Hbf -> Villach Hbf -> Pula Airport -> Biograd na Moru Autobusni Kolodvor -> Imperia -> St-Sever Calvados -> Langres -> Charleroi-Ouest -> Luxembourg -> Amsterdam-Centraal -> Odense St. -> Antwerpen-Centraal -> Bruxelles-Midi -> Den Haag Centraal -> Leiden Lammenschans
+Depth soluzione: 6
+Percorso: Salzburg Hbf -> Bratislava hl.st. -> Freudenstadt Hbf -> Luxembourg Gare Centrale (Quai 13) -> Luxembourg -> Antwerpen-Centraal -> Leiden Lammenschans
 ------------------------------
 
 TEST 82
 Da: Langres -> A: Luxembourg
-Percorso: Langres -> Charleroi-Ouest -> Luxembourg
+Depth soluzione: 3
+Percorso: Langres -> Charleroi-Ouest -> Bruxelles-Midi -> Luxembourg
 ------------------------------
 
 TEST 83
 Da: Villach Hbf -> A: Bruxelles-Midi
-Percorso: Villach Hbf -> Freudenstadt Hbf -> Bratislava hl.st. -> Moskva Kievskaia -> Warszawa-Centralna -> Nykøbing Falster St. -> Vetlanda station -> Ekenässjön station -> Nybro Station -> Magdeburg Hbf -> Antwerpen-Centraal -> Bruxelles-Midi
+Depth soluzione: 4
+Percorso: Villach Hbf -> Freudenstadt Hbf -> Luxembourg Gare Centrale (Quai 13) -> Luxembourg -> Bruxelles-Midi
 ------------------------------
 
 TEST 84
 Da: Łódź Kaliska -> A: Bruxelles-Midi
-Percorso: Łódź Kaliska -> Ústí nad Labem hl.n. -> Praha hl.n. -> Bratislava hl.st. -> Moskva Kievskaia -> Budapest-Keleti -> Salzburg Hbf -> Villach Hbf -> Freudenstadt Hbf -> Magdeburg Hbf -> Nybro Station -> Herning St. -> Antwerpen-Centraal -> Bruxelles-Midi
+Depth soluzione: 6
+Percorso: Łódź Kaliska -> Warszawa-Centralna -> Magdeburg Hbf -> Bremen Hbf -> Odense St. -> Antwerpen-Centraal -> Bruxelles-Midi
 ------------------------------
 
 TEST 85
-Da: Nykøbing Falster St. -> A: Ostrava-Vítkovice
-Percorso: Nykøbing Falster St. -> Warszawa-Centralna -> Moskva Kievskaia -> Budapest-Keleti -> Salzburg Hbf -> Bratislava hl.st. -> Praha hl.n. -> Ostrava-Vítkovice
+Da: Vetlanda station -> A: Ostrava-Vítkovice
+Depth soluzione: 5
+Percorso: Vetlanda station -> Nykøbing Falster St. -> Warszawa-Centralna -> Bratislava hl.st. -> Praha hl.n. -> Ostrava-Vítkovice
 ------------------------------
 
 TEST 86
 Da: Nardò Città -> A: Luxembourg Gare Centrale (Quai 13)
-Percorso: Nardò Città -> Bellinzona -> Frauenfeld Bahnhof -> Freudenstadt Hbf -> Bratislava hl.st. -> Moskva Kievskaia -> Budapest-Keleti -> Salzburg Hbf -> Villach Hbf -> Pula Airport -> Biograd na Moru Autobusni Kolodvor -> Imperia -> St-Sever Calvados -> Langres -> Charleroi-Ouest -> Luxembourg -> Luxembourg Gare Centrale (Quai 13)
+Depth soluzione: 4
+Percorso: Nardò Città -> Bellinzona -> Frauenfeld Bahnhof -> Freudenstadt Hbf -> Luxembourg Gare Centrale (Quai 13)
 ------------------------------
 
 TEST 87
 Da: Falkirk High -> A: Ostrava-Vítkovice
-Percorso: Falkirk High -> Dublin Connolly -> Pembroke Station -> Newhaven Town -> Langres -> Charleroi-Ouest -> Luxembourg -> Freudenstadt Hbf -> Bratislava hl.st. -> Moskva Kievskaia -> Budapest-Keleti -> Salzburg Hbf -> Villach Hbf -> Pula Airport -> Biograd na Moru Autobusni Kolodvor -> Imperia -> St-Sever Calvados -> Nomain -> Rodange -> Bruxelles-Midi -> Antwerpen-Centraal -> Odense St. -> Amsterdam-Centraal -> Herning St. -> Nybro Station -> Magdeburg Hbf -> Warszawa-Centralna -> Łódź Kaliska -> Ústí nad Labem hl.n. -> Praha hl.n. -> Ostrava-Vítkovice
+Depth soluzione: 7
+Percorso: Falkirk High -> Newhaven Town -> Langres -> Balsthal -> Freudenstadt Hbf -> Bratislava hl.st. -> Praha hl.n. -> Ostrava-Vítkovice
 ------------------------------
 
 TEST 88
 Da: Warszawa-Centralna -> A: Bratislava hl.st.
-Percorso: Warszawa-Centralna -> Nykøbing Falster St. -> Vetlanda station -> Ekenässjön station -> Nybro Station -> Magdeburg Hbf -> Freudenstadt Hbf -> Bratislava hl.st.
+Depth soluzione: 1
+Percorso: Warszawa-Centralna -> Bratislava hl.st.
 ------------------------------
 
 TEST 89
 Da: Den Haag Centraal -> A: Budapest-Keleti
-Percorso: Den Haag Centraal -> Newhaven Town -> Langres -> Charleroi-Ouest -> Luxembourg -> Freudenstadt Hbf -> Bratislava hl.st. -> Moskva Kievskaia -> Budapest-Keleti
+Depth soluzione: 6
+Percorso: Den Haag Centraal -> Newhaven Town -> Langres -> Balsthal -> Freudenstadt Hbf -> Bratislava hl.st. -> Budapest-Keleti
 ------------------------------
 
 TEST 90
 Da: Luxembourg -> A: Porto Sao Bento
-Percorso: Luxembourg -> Freudenstadt Hbf -> Bratislava hl.st. -> Moskva Kievskaia -> Budapest-Keleti -> Salzburg Hbf -> Villach Hbf -> Pula Airport -> Biograd na Moru Autobusni Kolodvor -> Imperia -> St-Sever Calvados -> Langres -> Barcelona El Prat T1 -> San Fernando de Cádiz -> Lisboa Santa Apolónia -> Porto Campanhã -> Porto Sao Bento
+Depth soluzione: 6
+Percorso: Luxembourg -> Rodange -> Balsthal -> Langres -> Barcelona El Prat T1 -> Porto Campanhã -> Porto Sao Bento
 ------------------------------
 
 TEST 91
-Da: Herning St. -> A: Warszawa-Centralna
-Percorso: Herning St. -> Nybro Station -> Magdeburg Hbf -> Freudenstadt Hbf -> Bratislava hl.st. -> Moskva Kievskaia -> Warszawa-Centralna
+Da: Nykøbing Falster St. -> A: Warszawa-Centralna
+Depth soluzione: 1
+Percorso: Nykøbing Falster St. -> Warszawa-Centralna
 ------------------------------
 
 TEST 92
 Da: Falkirk High -> A: St-Sever Calvados
-Percorso: Falkirk High -> Dublin Connolly -> Pembroke Station -> Newhaven Town -> Langres -> Charleroi-Ouest -> Luxembourg -> Freudenstadt Hbf -> Bratislava hl.st. -> Moskva Kievskaia -> Budapest-Keleti -> Salzburg Hbf -> Villach Hbf -> Pula Airport -> Biograd na Moru Autobusni Kolodvor -> Imperia -> St-Sever Calvados
+Depth soluzione: 3
+Percorso: Falkirk High -> Newhaven Town -> Langres -> St-Sever Calvados
 ------------------------------
 
 TEST 93
 Da: Imperia -> A: Magdeburg Hbf
-Percorso: Imperia -> Biograd na Moru Autobusni Kolodvor -> Pula Airport -> Villach Hbf -> Freudenstadt Hbf -> Bratislava hl.st. -> Moskva Kievskaia -> Warszawa-Centralna -> Nykøbing Falster St. -> Vetlanda station -> Ekenässjön station -> Nybro Station -> Magdeburg Hbf
+Depth soluzione: 5
+Percorso: Imperia -> Pula Airport -> Villach Hbf -> Freudenstadt Hbf -> Bremen Hbf -> Magdeburg Hbf
 ------------------------------
 
 TEST 94
-Da: Praha hl.n. -> A: Nykøbing Falster St.
-Percorso: Praha hl.n. -> Bratislava hl.st. -> Moskva Kievskaia -> Budapest-Keleti -> Salzburg Hbf -> Villach Hbf -> Freudenstadt Hbf -> Magdeburg Hbf -> Nybro Station -> Herning St. -> Nykøbing Falster St.
+Da: Praha hl.n. -> A: Vetlanda station
+Depth soluzione: 4
+Percorso: Praha hl.n. -> Bratislava hl.st. -> Warszawa-Centralna -> Nykøbing Falster St. -> Vetlanda station
 ------------------------------
 
 TEST 95
-Da: Ekenässjön station -> A: Imperia
-Percorso: Ekenässjön station -> Nybro Station -> Magdeburg Hbf -> Freudenstadt Hbf -> Bratislava hl.st. -> Moskva Kievskaia -> Budapest-Keleti -> Salzburg Hbf -> Villach Hbf -> Pula Airport -> Biograd na Moru Autobusni Kolodvor -> Imperia
+Da: Nybro Station -> A: Imperia
+Depth soluzione: 6
+Percorso: Nybro Station -> Magdeburg Hbf -> Bremen Hbf -> Freudenstadt Hbf -> Villach Hbf -> Pula Airport -> Imperia
 ------------------------------
 
 TEST 96
 Da: Ostrava-Vítkovice -> A: Bremen Hbf
-Percorso: Ostrava-Vítkovice -> Praha hl.n. -> Bratislava hl.st. -> Moskva Kievskaia -> Budapest-Keleti -> Salzburg Hbf -> Villach Hbf -> Freudenstadt Hbf -> Magdeburg Hbf -> Nybro Station -> Herning St. -> Antwerpen-Centraal -> Bruxelles-Midi -> Rodange -> Balsthal -> Langres -> Charleroi-Ouest -> Luxembourg -> Amsterdam-Centraal -> Odense St. -> Bremen Hbf
+Depth soluzione: 4
+Percorso: Ostrava-Vítkovice -> Praha hl.n. -> Bratislava hl.st. -> Freudenstadt Hbf -> Bremen Hbf
 ------------------------------
 
 TEST 97
 Da: Nardò Città -> A: Nomain
-Percorso: Nardò Città -> Bellinzona -> Frauenfeld Bahnhof -> Freudenstadt Hbf -> Bratislava hl.st. -> Moskva Kievskaia -> Budapest-Keleti -> Salzburg Hbf -> Villach Hbf -> Pula Airport -> Biograd na Moru Autobusni Kolodvor -> Imperia -> St-Sever Calvados -> Langres -> Charleroi-Ouest -> Luxembourg -> Amsterdam-Centraal -> Odense St. -> Antwerpen-Centraal -> Bruxelles-Midi -> Rodange -> Nomain
+Depth soluzione: 3
+Percorso: Nardò Città -> Imperia -> St-Sever Calvados -> Nomain
 ------------------------------
 
 TEST 98
-Da: Herning St. -> A: Odense St.
-Percorso: Herning St. -> Nybro Station -> Magdeburg Hbf -> Freudenstadt Hbf -> Bratislava hl.st. -> Moskva Kievskaia -> Budapest-Keleti -> Salzburg Hbf -> Villach Hbf -> Pula Airport -> Biograd na Moru Autobusni Kolodvor -> Imperia -> St-Sever Calvados -> Langres -> Charleroi-Ouest -> Luxembourg -> Amsterdam-Centraal -> Odense St.
+Da: Nykøbing Falster St. -> A: Herning St.
+Depth soluzione: 1
+Percorso: Nykøbing Falster St. -> Herning St.
 ------------------------------
 
 TEST 99
 Da: Pula Airport -> A: Barcelona El Prat T1
-Percorso: Pula Airport -> Biograd na Moru Autobusni Kolodvor -> Imperia -> St-Sever Calvados -> Langres -> Barcelona El Prat T1
+Depth soluzione: 2
+Percorso: Pula Airport -> Imperia -> Barcelona El Prat T1
 ------------------------------
 
 TEST 100
 Da: Imperia -> A: Biograd na Moru Autobusni Kolodvor
+Depth soluzione: 1
 Percorso: Imperia -> Biograd na Moru Autobusni Kolodvor
 ------------------------------

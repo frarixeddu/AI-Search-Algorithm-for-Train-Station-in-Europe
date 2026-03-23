@@ -7,7 +7,11 @@ def a_star_search(G, start_node, goal_node, pos):
     """
     Esegue la ricerca A* 
     """
-    
+    # --- METRICHE ---
+    nodes_expanded = 0  # complessità temporale
+    max_memory = 0      # complessità spaziale
+    # ----------------
+
     # 1. Definizione dell'euristica h(n) internamente per comodità
     def get_h(node):
         # calcola la distanza in linea d'aria (euristica) tra il nodo considerato e il nodo obbiettivo 
@@ -36,8 +40,14 @@ def a_star_search(G, start_node, goal_node, pos):
     visited_costs = {start_node: 0} # visited_costs è una CLOSED LIST
 
     while fringe:
+
+        # Update max memory (complessità spaziale)
+        max_memory = max(max_memory, len(fringe))
+
         # heappop estrae e rimuove l'oggetto (il nodo) con f_score minore dalla fringe
         f, g, current_node, path = heapq.heappop(fringe)
+
+        nodes_expanded += 1 # Incrementa ogni volta che estrai (complessità temporale)
 
         # GOAL TEST: se siamo arrivati a destinazione, ritorna il percorso compiuto e la distanza totale percorsa
         if current_node == goal_node:
